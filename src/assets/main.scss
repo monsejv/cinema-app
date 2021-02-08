@@ -1,0 +1,1216 @@
+body{
+    background-color: black!important;
+    color: #F4F4F4!important;
+    max-width: 1400px;
+    margin: auto!important;
+}
+
+@font-face {
+    font-family: 'Extenda';
+    src: local('Extenda'), url(../fonts/Extenda-20Micro.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Extenda-40';
+    src: local('Extenda'), url(../fonts/Extenda-40Hecto.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'Anton';
+    src: local('Extenda'), url(../fonts/Anton-Regular.ttf) format('woff');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+.paddings-container{
+    padding-left: 60px!important;
+    padding-right: 60px!important;
+}
+
+.title{
+    font-family: Extenda-40;
+    font-size: 160px;
+    font-style: normal;
+    line-height: 172px;
+    letter-spacing: 0.03em;
+    text-align: center;
+}
+
+.title.header{
+    font-family: Extenda;
+    letter-spacing: 0.01em;
+    font-weight: 300;
+}
+
+.subtitle{
+    font-weight: 300;
+    font-size: 48px;
+    line-height: 52px;
+    letter-spacing: 0.03em;
+    font-family: Extenda;
+}
+
+.h-100v{
+    height: 100vh;
+}
+
+.w-95{
+    width: 95%;
+}
+
+.w-77{
+    width: 77%;
+}
+
+.bg-gray{
+    background: #151515;
+    padding: 140px 118px;
+    margin-bottom: 172px;
+}
+
+.mb-120{
+    margin-bottom: 120px;
+}
+
+a{
+    color: #F4F4F4!important;
+}
+
+.img-header{
+    width: 100%;
+}
+
+.text-contact{
+    font-family: Extenda;
+    font-weight: 250;
+    font-size: 110px;
+    letter-spacing: 0.03em;
+    line-height: 0.86;
+    margin-bottom: 0;
+}
+.text-low-two-colors{
+    font-family: Extenda;
+    font-weight: 300;
+    font-size: 96px;
+    line-height: 100%;
+    letter-spacing: 0.05em;
+    margin-top: -40px;
+}
+b{
+    color: #169BD8;
+}
+p, span{
+    font-family: 'Source Code Pro', monospace;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+}
+.text-two-colors{
+    font-weight: 300;
+    font-size: 180px;
+    line-height: 86%;
+    font-family: Extenda;
+}
+
+.btn-outline-primary{
+    font-size: 36px!important;
+    letter-spacing: 0.03em!important;
+    color: #F4F4F4!important;
+    border: 1px solid #169BD8!important;
+    font-family: Extenda;
+    line-height: 100%!important;
+    border-radius: 0!important;
+    width: 196px;
+    height: 48px;
+}
+
+.btn-outline-primary:hover, .btn-outline-primary:active, .btn-outline-primary:focus{
+    background-color: transparent!important;
+    color: #169BD8!important;
+    text-decoration: line-through!important;
+    box-shadow: none!important;
+}
+
+.nav{
+    position: fixed;
+    width: 100%;
+    left: 0;
+    right: 0;
+    height: 60px;
+    z-index: 999999;
+    padding: 20px;
+    .logo{
+        position: absolute;
+        left: 60px;
+        top: 8px;
+        width: 35px;
+    }
+    .menu{
+        position: absolute;
+        right: 60px;
+        top: 20px;
+        width: 25px;
+    }
+}
+
+.button-demo{
+    font-weight: 450!important;
+    font-size: 30px!important;
+    line-height: 32px!important;
+    color: #F4F4F4!important;
+    border: none!important;
+    background: transparent!important;
+    font-family: Extenda-40!important;
+    letter-spacing: 0.05em;
+    img{
+        width: 30px;
+        height: 30px;
+        margin-left: 10px;
+        vertical-align: middle;
+        margin-top: -5px;
+    }
+}
+
+.video-wrapper{
+    position: relative;
+    width: 100%;
+    max-height: 900px;
+    z-index: -1;
+    div{
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+}
+
+.menu-box{
+    width: 100%;
+    height: 100%;
+    background: black;
+    position: fixed;
+    top: 0;
+    overflow-y: auto;
+    left: 0;
+    z-index: 99999;
+    padding: 0px 60px;
+    .menu-list{
+        font-weight: normal;
+        font-size: 120px;
+        line-height: 86%;
+        letter-spacing: 0.03em;
+        font-family: Extenda-40;
+        list-style: none;
+        margin-left: -40px;
+        li{
+            margin-bottom: 0px;
+        }
+    }
+    p{
+        font-size: 12px;
+        line-height: 194%;
+        letter-spacing: 0.07em;
+    }
+    .menu-wrapper{
+        margin-top: 100px;
+    }
+}
+
+.footer{
+    padding: 47px 0;
+}
+
+.copyright{
+    span{
+        margin-right: 30px;
+        &.social{
+            margin-right: 20px;
+            background-image: url('./arrow.svg');
+            background-repeat: no-repeat;
+            background-position: right;
+            padding-right: 20px;
+        }
+    }
+}
+
+.card{
+    background-color: transparent!important;
+    padding: 70px 0;
+    .btn-primary{
+        width: 197px;
+        height: 41px;
+        background: #169BD8;
+        border: none;
+        border-radius: 0;
+        font-family: Extenda;
+        font-style: normal;
+        font-weight: 350;
+        font-size: 36px;
+        letter-spacing: 0.03em;
+        line-height: 100%;
+        color: #F4F4F4;
+        padding: 7px;
+    }
+    .card-body{
+        position: absolute;
+        top: 0;
+    }
+}
+
+.card{
+    .card-title{
+        background-repeat: no-repeat;
+        background-size: auto;
+        min-width: 550px;
+        height: 155px;
+    }
+    /*Services*/
+    &[data-title="produccion"], &[data-title="distribucion"]{
+        float: right;
+        width: 95%;
+        .card-body{
+            right: -10px;
+            text-align: right;
+            top: -44px;
+        }
+    }
+    &[data-title="produccion"]{
+        .card-title{
+            background-image: url('../assets/PRODUCCIÓN.svg');
+            background-position: right;
+        }
+    }
+    &[data-title="post-produccion"]{
+        .card-title{
+            background-image: url('../assets/POST-PRODUCCIÓN.svg');
+        }
+    }
+    &[data-title="pre-produccion"]{
+        width: 95%;
+        .card-body{
+            right: -40px;
+            top: 113px;
+            .card-title{
+                background-image: url('../assets/PRE-PRODUCCIÓN.svg');
+            }
+        }
+    } 
+    &[data-title="post-produccion"], &[data-title="movievans"]{
+        .card-body{
+            left: 10px;
+            top: -20px;
+        }
+    }
+    &[data-title="movievans"]{
+        width: 95%;
+        .card-title{
+            background-image: url('../assets/MOVIE-VANS.svg');
+        }
+    } 
+    &[data-title="distribucion"]{
+        .card-title{
+            background-image: url('../assets/DISTRIBUCIÓN.svg');
+            background-position: right;
+        }
+    } 
+    /*Proyects*/
+    &[data-title="malacopa"]{
+        .card-title{
+            background-image: url('../assets/MALACOPA.svg');
+        }
+    } 
+    &[data-title="traición"]{
+        .card-title{
+            background-image: url('../assets/TRAICIÓN.svg');
+        }
+    } 
+    &[data-title="el año de la plaga"]{
+        .card-title{
+            background-image: url('../assets/EL\ AÑO\ DE\ LA\ PLAGA.svg');
+        }
+    }    
+    &[data-title="el baile de la gacela"]{
+        .card-title{
+            background-image: url('../assets/EL\ BAILE\ DE\ LA\ GACELA.svg');
+        }
+    } 
+    &[data-title="al caer la noche"]{
+        .card-title{
+            background-image: url('../assets/AL\ CAER\ LA\ NOCHE.svg');
+        }
+    } 
+    &[data-title="influencia"]{
+        .card-title{
+            background-image: url('../assets/INFLUENCIA.svg');
+        }
+    } 
+    &[data-title="feral"]{
+        .card-title{
+            background-image: url('../assets/FERAL.svg');
+        }
+    } 
+    &[data-title="la venganza de jairo"]{
+        .card-title{
+            background-image: url('../assets/LA\ VENGANZA\ DE\ JAIRO.svg');
+        }
+    } 
+    &[data-title="coraje"]{
+        .card-title{
+            background-image: url('../assets/CORAJE.svg');
+        }
+    } 
+    /* borderless */
+    &[data-title="QUESO, EL NIÑO PERRO"]{
+        width: 95%;
+        .card-body{
+            top: -26px;
+            height: 100%;
+            width: 100%;
+            .card-text{
+                position: absolute;
+                bottom: 15%;
+                right: 5%;
+                width: 40%;
+            }
+            .card-title{
+                background-image: url('../assets/QUESO\,\ EL\ NIÑO\ PERRO.svg');
+                background-position: right;
+            }
+        }
+    }
+    &[data-title="FICG EDICIÓN TREINTA Y CINCO"]{
+        width: 95%;
+        float: right;
+        .card-body{
+            top: -40px;
+            height: 100%;
+            width: 100%;
+            .card-title{
+                background-image: url('../assets/FICG\ EDICIÓN\ TREINTA\ Y\ CINCO.svg');
+            }
+            .card-text{
+                bottom: 15%;
+                width: 40%;
+                left: 12%;
+                position: absolute;
+            }
+        }
+    } 
+    &.left{
+        width: 95%;
+        .card-body{
+            left: 5%;
+            height: 100%;
+            width: 100%;
+            top: -10px;
+            .wrapper-text{
+                position: absolute;
+                bottom: 15%;
+                right: 15%;
+                width: 55%;
+            }
+        }
+    }
+    &.right{
+        width: 95%;
+        float: right;
+        .card-body{
+            width: 100%;
+            height: 100%;
+            right: 5%;
+            top: -10px;
+            .card-title{
+                background-position: right;
+            }
+            .wrapper-text{
+                position: absolute;
+                bottom: 15%;
+                left: 15%;
+                width: 55%;
+            }
+        }
+    }
+}
+
+.awards{
+    left: 65px!important;
+    bottom: -30px!important;
+}
+
+.premios{
+    width: 445px;
+    height: 65px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-bottom: 30px;
+    display: block;
+    &.p-2018{
+        background-image: url('../assets/nuestros\ premios\ 2018.svg');
+    }
+    
+    &.p-2019{
+        background-image: url('../assets/nuestros\ premios\ 2019.svg');
+    }
+    
+    &.p-2020{
+        background-image: url('../assets/nuestros\ premios\ 2020.svg');
+    }
+}
+
+a:hover{
+    color: #169BD8!important;
+    text-decoration: line-through!important;
+}
+
+.height-80{
+    height: 80px;
+}
+
+.demo-wrapper{
+    min-height: 845px;
+    padding-bottom: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-control-prev, .carousel-control-next{
+    top: auto!important;
+    bottom: -40px!important;
+    width: 35px!important;
+    height: 35px;
+    opacity: 1!important;
+}
+
+.carousel-control-prev{
+    right: 40px;
+    left: auto!important;
+    span{
+        background-image: url('../assets/triangulo_izquierda.svg');
+    }
+}
+.carousel-control-next{
+    span{
+        background-image: url('../assets/triangulo_derecha.svg');
+    }
+} 
+
+.carousel-costume{
+    width: 57%;
+    left: 12%!important;
+    bottom: 0px!important;
+    .btn-primary{
+        width: 196px;
+        height: 48px;
+        background: #169BD8;
+        font-weight: 350;
+        font-size: 36px;
+        line-height: 100%;
+        letter-spacing: 0.03em;
+        color: #F4F4F4;
+        font-family: Extenda;
+        padding: 9px;
+        border-radius: 0;
+    }
+}
+
+.carousel-caption{
+    h3{
+        font-weight: 350;
+        font-size: 100px;
+        line-height: 100%;
+        letter-spacing: 0.03em;
+        font-family: Extenda;
+        margin-bottom: -10px;
+        text-transform: uppercase;
+    }
+} 
+
+.carousel-indicators{
+    counter-reset: line-number;
+    z-index: -1!important;
+    li{
+        counter-increment: line-number;
+        text-indent: initial!important;
+        background: none!important;
+        opacity: 0!important;
+        transition: none!important;
+        font-size: 18px;
+        line-height: 100%;
+        letter-spacing: 0.03em;
+        font-family: 'Source Code Pro', monospace;
+        width: 90px!important;
+        &::before{
+            
+            content: counter(line-number, decimal-leading-zero) " / ";
+        }
+        &.active{
+            opacity: 1!important;
+            position: absolute;
+            right: -10%;
+            bottom: -42px;
+        }
+    }
+}
+
+.proyects{
+    .carousel-indicators{
+        li::after{
+            content: "09";
+        }
+    } 
+} 
+
+.originals, .presentials{
+    .carousel-indicators{
+        li::after{
+            content: "02";
+        }
+    } 
+}
+.nosotros{
+    .carousel-indicators{
+        li::after{
+            content: "09";
+        }
+    } 
+}
+
+.loader{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    align-items: center;
+    display: flex;
+    background: black;
+    z-index: 9999999;
+    justify-content: center;
+    .w-70{
+        width: 20%;
+        .logo{
+            background-image: url('../assets/logo.svg');
+            width: 100%;
+            height: 100px;
+            background-repeat: no-repeat;
+            background-size: 90px;
+            background-position: center;
+        }
+        .progress{
+            margin-top: 50px;
+            height: 6px;
+            .progress-bar{
+                height: 6px;
+                background: #169BD8;
+            }
+        }
+    }
+    &.fade-out {
+        animation: fadeOut ease 1s;
+        -webkit-animation: fadeOut ease 1s;
+        -moz-animation: fadeOut ease 1s;
+        -o-animation: fadeOut ease 1s;
+        -ms-animation: fadeOut ease 1s;
+        opacity: 0;
+        z-index: 0;
+    }
+}
+
+@keyframes fadeOut {
+    0% {
+      opacity:1;
+    }
+    100% {
+      opacity:0;
+    }
+}
+  
+
+.borderless{
+    .carousel-indicators{
+        li::after{
+            content: "03";
+        }
+    } 
+}
+
+.left-22{
+    left: 22%!important;
+}
+
+.member-wrapper{
+    bottom: -20px!important;
+}
+
+.no-margin{
+    margin: 0px;
+}
+
+.members{
+    margin-left: 46%;
+}
+
+h3.members{
+    font-family: Anton;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 155%;
+    letter-spacing: 0.03em;
+    width: 100%;
+}
+
+.wrapper-movie{
+    min-height: 900px;
+    justify-content: left;
+    align-items: center;
+}
+
+.banner-movie{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+}
+
+.wrapper-trailer{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    .play{
+        display: block;
+        width: 70px;
+        height: 70px;
+        background-image: url('https://cinema226.s3-us-west-2.amazonaws.com/C226+web+page2021/icons/play.svg');
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: absolute;
+        cursor: pointer;
+    }
+}
+
+.sinopsis{
+    font-family: Extenda;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 96px;
+    line-height: 100%;
+    letter-spacing: 0.05em;
+}
+
+.avaible-wrapper{
+    margin-top: 20px;
+    .netflix{
+        width: 96px;
+        height: 27px;
+        background-image: url('https://cinema226.s3-us-west-2.amazonaws.com/C226+web+page2021/Recursos+Peliculas+Individuales/Malacopa/netflix.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        display: inline-flex;
+        margin: 0px 6px;
+        vertical-align: middle;
+    }
+    
+    .prime-video{
+        width: 96px;
+        height: 27px;
+        background-image: url('https://cinema226.s3-us-west-2.amazonaws.com/C226+web+page2021/Recursos+Peliculas+Individuales/Malacopa/amazon+prime.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        display: inline-flex;
+        margin: 0px 6px;
+        vertical-align: middle;
+    }
+    .film{
+        background-image: url('https://cinema226.s3-us-west-2.amazonaws.com/C226+web+page2021/Recursos+Peliculas+Individuales/traicion/FILMIN+1.svg');
+        width: 96px;
+        height: 27px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        display: inline-flex;
+        margin: 0px 6px;
+        vertical-align: middle;
+    }
+}
+
+.footer-menu{
+    position: absolute;
+    bottom: 30px;
+    width: 90%;
+}
+
+.scroll{
+    background: #000000;
+    opacity: 0.88;
+}
+
+.z-9{
+    z-index: 9;
+}
+
+.z-0{
+    z-index: -1;
+}
+
+.height-100{
+    height: 100px;
+}
+/*Media Queries*/
+
+@media (max-width: 1200px) { 
+    .img-header{
+        width: 100%;
+        height: auto;
+    }
+    .text-two-colors{
+        font-size: 125px;
+    }
+    .title{
+        font-size: 100px;
+    }
+ }
+
+ @media (max-width: 768px) { 
+     .demo-wrapper{
+        min-height: 1010px;
+     }
+     .size-mobile{
+         .text-two-colors{
+             font-size: 120px;
+             margin-top: 0px;
+         }
+     }
+     .text-two-colors{
+         margin-top: -45px;
+     }
+     .carousel-costume{
+         width: 75%;
+         bottom: -10px !important;
+         .mb-5{
+             margin-bottom: 2em!important;
+         }
+     }
+     .carousel-indicators{
+         li.active{
+             right: -6%;
+         }
+     }
+     .card{
+         .card-title{
+            min-width: 236px;
+            background-size: auto 70%;
+         }
+     }
+     .presentials{
+         h3{
+             font-size: 90px;
+         }
+     }
+     .contact-us{
+         display: flex;
+         justify-content: space-around;
+         .write-us{
+             order: 1;
+             text-align: left;
+         }
+         .visit-us{
+             order: 2;
+             text-align: center;
+         }
+         .call-us{
+             order: 3;
+             text-align: right;
+         }
+     }
+     .copyright{
+         .disclaimer{
+             display: block;
+         }
+     }
+     .paddings-container{
+        padding-left: 40px!important;
+        padding-right: 40px!important;
+     }
+     .nav{
+         .logo{
+             left: 40px;
+         }
+         .menu{
+             right: 40px;
+         }
+     }
+     .awards{
+        left: 40px !important;
+        bottom: -70px !important;
+        .premios{
+            width: 270px;
+            margin-bottom: 0px;
+        }
+     }
+     .member-wrapper{
+        width: 55%;
+        left: 159px !important;
+        h3{
+            font-size: 30px;
+        }
+        .no-margin{
+            font-size: 14px;
+            text-align: center;
+        }
+     }
+     .card{
+        .card-body{
+            width: 100%;
+        }
+        .card-title{
+           background-size: contain;
+        }
+        .btn-primary{
+           width: 144px;
+           height: 28px;
+           font-size: 24px;
+           padding: 5px;
+        }
+        p{
+            font-size: 12px;
+        }
+        &[data-title="post-produccion"], &[data-title="pre-produccion"], &[data-title="produccion"], &[data-title="movievans"], &[data-title="distribucion"]{
+            width: 90%;
+            .card-body{
+                top: 25%;
+                width: 90%;
+            }
+            .card-title{
+                height: 100px;
+            }
+        }
+        &[data-title="produccion"]{
+            .card-body{
+               left: -11%;
+            }
+        }
+        &[data-title="movievans"]{
+           float: right;
+           text-align: right;
+           .card-body{
+               left: -15%;
+           }
+           .card-title{
+               background-position: right;
+           }
+        }
+        &[data-title="distribucion"]{
+            float: left;
+            .card-body{
+               text-align: left;
+               left: 15%;
+            }
+            .card-title{
+                background-position: left;
+            }
+        }
+        &.left, &.right{
+            width: 100%;
+            .card-title{
+               height: 64px;
+            }
+            p{
+                font-size: 10px;
+            }
+            .btn-primary{
+               width: 122px;
+               height: 37px;
+               font-size: 30px;
+               padding: 7px;
+            }
+        }
+        &.left{
+            .card-body{
+               top: 10px;
+               .wrapper-text{
+                   right: 0;
+                   width: 87%;
+                   left: 5%;
+                }
+            }
+        }
+        &.right{
+            .card-body{
+               top: 10px;
+                .wrapper-text{
+                   left: unset;
+                   width: 87%;
+                   right: 5%;
+                   text-align: right;
+                }
+            }
+        }
+        &[data-title="QUESO, EL NIÑO PERRO"]{
+            .card-body{
+                .card-title{
+                    background-position: right;
+                }
+                .card-text{
+                   text-align: right;
+                }
+            }
+        }
+        &[data-title="FICG EDICIÓN TREINTA Y CINCO"], &[data-title="QUESO, EL NIÑO PERRO"]{
+            width: 100%;
+           .card-body{
+               top: 15px;
+               .card-title{
+                   height: 64px;
+               }
+               .card-text{
+                  width: 80%;
+                  bottom: 24%;
+               }
+           }
+       }
+    }
+    .context-us{
+        .text-us{
+            order: 1;
+        }
+        .img-us{
+            order: 2;
+        }
+    }
+    .movies-trailer{
+        margin-top: 100px;
+        .poster{
+            order: 2;
+            margin-top: 50px;
+        }
+        .trailer{
+            order: 1;
+        }
+    }
+    .title{
+        &.header{
+            line-height: 60px;
+        }
+    }
+    .wrapper-movie{
+        align-items: flex-end;
+    }
+    .nosotros-mobile{
+        .carousel-indicators{
+            li::after{
+                content: "17";
+            }
+        } 
+    }
+  }
+
+  @media(max-width: 576px){
+    .nav{
+        img{
+            width: 30px;
+        }
+        .logo{
+            left: 20px;
+        }
+        .menu{
+            right: 20px;
+        }
+    }
+    .paddings-container{
+        padding-left: 20px!important;
+        padding-right: 20px!important;
+     }
+     .size-mobile{
+        .text-two-colors{
+            font-size: 53px;
+            margin-top: 0px;
+        }
+    }
+     .menu-box{
+        padding: 0px 20px;
+         .menu-list{
+             font-size: 96px;
+             
+         }
+     }
+     .text-two-colors, .text-low-two-colors{
+        font-size: 53px;
+     }
+     .member-wrapper {
+        width: 100%;
+        left: 56px !important;
+
+    }
+     .other{
+        .text-two-colors{
+            font-size: 72px;
+            margin-top: -25px;
+            letter-spacing: 0.01em;
+        }
+        p{
+            font-size: 10px;
+            letter-spacing: 0.05em;
+        }
+        .btn-outline-primary{
+            display: none;
+        }
+     }
+     p{
+         font-size: 10px;
+     }
+     .w-95.pt-5{
+         padding-top: 0px!important;
+         padding-bottom: 0px!important;
+     }
+     .btn-outline-primary{
+         width: 157px;
+         height: 44px;
+     }
+     .btn-primary{
+         width: 120px;
+         height: 44px;
+     }
+     .title{
+         font-size: 64px;
+         line-height: normal;
+         letter-spacing: 0.01em;
+         &.header{
+            margin-bottom: -10px;
+         }
+         &.mb-5{
+             margin-bottom: 20px!important;
+         }
+     }
+     .demo-wrapper{
+        min-height: 700px;
+        padding-bottom: 20px;
+     }
+     .carousel-caption{
+         h3{
+             font-size: 45px;
+         }
+         p{
+             font-size: 7px;
+         }
+         .btn{
+             width: 122px;
+             height: 37px;
+             font-size: 23px;
+         }
+     }
+     .carousel-indicators{
+         li{
+             font-size: 8px;
+             &.active{
+                right: -20%;
+             }
+         }
+     }
+     .carousel-control-next-icon, .carousel-control-prev-icon{
+         width: 7px!important;
+         height: 12px!important;
+     }
+     .carousel-control-prev{
+         right: 20px;
+     }
+     .carousel-control-prev, .carousel-control-next{
+        bottom: -33px !important;
+     }
+     .presentials{
+         .carousel-costume{
+            left: 15px!important;
+            width: 100%!important;
+         }
+     }
+     .contact-us{
+         display: block;
+         .write-us{
+            width: 50%;
+            display: inline-grid;
+         }
+         .call-us{
+            width: 50%;
+            display: inline-grid;
+            order: 2;
+         }
+         .visit-us{
+             order: 3;
+         }
+         .text-contact{
+             font-size: 90px;
+         }
+         p{
+             font-size: 12px;
+         }
+     }
+     .copyright{
+         .rights{
+            font-size: 11px;
+            letter-spacing: 0.04em;
+            color: #F4F4F4;
+         }
+     }
+     .context-us{
+         .text-us{
+             order: 1;
+         }
+         .img-us{
+             order: 2;
+             .text-two-colors{
+                 font-size: 70px;
+             }
+         }
+     }
+     .member-wrapper{
+         padding-bottom: 0px!important;
+        .members{
+            margin-bottom: 6px;
+            margin-left: 33%;
+        }
+        h3{
+            font-size: 18px;
+         }
+         .no-margin{
+            text-align: center;
+            width: 69%;
+            font-size: 7px;
+         }
+     }
+     .wrapper-movie{
+        min-height: 445px;
+     }
+     .w-77{
+         width: 100%;
+     }
+     .bg-gray{
+         padding: 25px;
+     }
+     .movies-trailer{
+         margin-top: 50px;
+     }
+     .avaible-wrapper{
+         .netflix, .prime-video, .film{
+             width: 70px;
+         }
+     }
+     .loader{
+         .w-70{
+             width: 50%;
+             .logo{
+                background-size: 80px;
+             }
+         }
+     }
+     .wrapper-movie{
+         div{
+            margin-left: 20px;
+         }
+     }
+     .wrapper-trailer{
+         .play{
+             width: 40px;
+             height: 40px;
+         }
+     }
+  }
