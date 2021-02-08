@@ -4,11 +4,10 @@ import {Image} from 'react-bootstrap'
 import {useController} from 'react-scroll-parallax'
 
 function ImgText(props){
-    const widthPages = window.innerWidth;
     const { parallaxController } = useController();
     
     const load = () => {
-        if(widthPages > 767){
+        if(props.disabled === false){
             parallaxController.update()
         }
     }

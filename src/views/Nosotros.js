@@ -42,7 +42,7 @@ function Nosotros(){
                         disabled={disabledParallax}
                         expand="true"
                         tag="figure">
-                        <ImgText img="https://cinema226.s3-us-west-2.amazonaws.com/C226+web+page2021/Recursos+Nosotros/Img/Frame+5.png" className="text-left text-low-two-colors" text="ROMPIENDO BARRERAS" />
+                        <ImgText img="https://cinema226.s3-us-west-2.amazonaws.com/C226+web+page2021/Recursos+Nosotros/Img/Frame+5.png" disabled={disabledParallax} className="text-left text-low-two-colors" text="ROMPIENDO BARRERAS" />
                     </Parallax>
                     </Col>
                     <Col lg={6} className="text-us">
@@ -72,7 +72,7 @@ function Nosotros(){
                         disabled={disabledParallax}
                         expand="true"
                         tag="figure">
-                        <ImgText img="https://cinema226.s3-us-west-2.amazonaws.com/C226+web+page2021/Recursos+Nosotros/Img/Frame+6.png" text="REFLEJAMOS EL TRABAJO DE<br/> <b>MENTES CREATIVAS</b>,
+                        <ImgText img="https://cinema226.s3-us-west-2.amazonaws.com/C226+web+page2021/Recursos+Nosotros/Img/Frame+6.png" disabled={disabledParallax} text="REFLEJAMOS EL TRABAJO DE<br/> <b>MENTES CREATIVAS</b>,
                          INNOVACIÓN</br> Y <b>ORGULLO MEXICANO</b>" className="text-right text-low-two-colors" />
                     </Parallax>
                     </Col>

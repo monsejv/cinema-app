@@ -7,14 +7,13 @@ import {Parallax, useController } from 'react-scroll-parallax'
 
 function ServiceCard(props){
     const { parallaxController } = useController();
-    const widthPages = window.innerWidth;
     const y1 = props.y1;
     const y2 = props.y2;
 
     const load = () => {
-        if(widthPages > 767){
+        if(props.disabled === false){
             parallaxController.update()
-        }
+        } 
     }
     
     return(

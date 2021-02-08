@@ -21,11 +21,11 @@ function Home (){
     const [progress, setProgress] = useState(0);
     const [loaderClass, setClass] = useState('loader');
     const [disabledParallax, setParallax] = useState(false);
+    let widthPage = window.innerWidth;
 
     
     useEffect(() => {
         window.scrollTo(0, 0) 
-        let widthPage = window.innerWidth;
         if (widthPage < 577) { setParallax(true) } 
         setTimeout(() => {
             setProgress(25)
