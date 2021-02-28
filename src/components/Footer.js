@@ -2,18 +2,19 @@ import React from 'react'
 
 import CopyRight from './Copyright'
 import LinkTo from './Link'
-import {Row, Col, Image} from 'react-bootstrap'
+import {Row, Col} from 'react-bootstrap'
 
 function Footer(props){
     return(
         <Row className="footer">
             <Col lg={8} sm={12}>
-                <Image src="https://cinema226.s3-us-west-2.amazonaws.com/C226+web+page2021/Recursos+Index/Texto+vectorizado/TRABAJEMOS+JUNTOS.svg" className="mb-120" width="100%"/>
+                <LinkTo link="mailto:hola@c226.mx?subject=Trabajemos Juntos" className="work-toguether" target="_blank" text="" />
+                {/* <Image src="https://cinema226.s3-us-west-2.amazonaws.com/C226+web+page2021/Recursos+Index/Texto+vectorizado/TRABAJEMOS+JUNTOS.svg" /> */}
             </Col>
             <Col lg={4} sm={12} className="text-right contact-us">
                 <div className="write-us">
                     <h1 className="text-contact">ESCRIBENOS</h1>
-                    <p><LinkTo link="mailto:hola@c226.mx" text="hola@c226.mx" target="_blank" /></p>
+                    <p><LinkTo link="mailto:hola@c226.mx?subject=Cuéntanos Más" text="hola@c226.mx" target="_blank" /></p>
                 </div>
                 <div className="call-us">
                     <h1 className="text-contact">LLAMANOS</h1>

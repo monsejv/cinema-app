@@ -1,106 +1,87 @@
 export const team = [{
     title: 'Samantha Guillén',
-    position: 'Founder, CEO',
-    description: '“Cada vez que tomas una decisión difícil –pero correcta- te vuelves más valiente, y cada vez que optas por la elección más sencilla”',
-    img: 'https://cinema226.s3-us-west-2.amazonaws.com/C226+web+page2021/Recursos+Nosotros/Img/Carrusel+Equipo/Samantha+Guill%C3%A9n.png'
+    position: 'Founder, C.E.O.',
+    description: '',
+    img: 'media/Nosotros/Samantha-Guillen.png'
 },
 {
     title: 'Adrián Bazán',
-    position: 'Founder, CEO',
-    description: '“Para crear una gran compañía, que es el trabajo de un director general, a veces tienes que enfrentarte a la sabiduría convencional”',
-    img: 'https://cinema226.s3-us-west-2.amazonaws.com/C226+web+page2021/Recursos+Nosotros/Img/Carrusel+Equipo/Adrian.png'
-},
-{
-    title: 'Anna',
-    position: '-',
+    position: 'Founder, C.E.O.',
     description: '',
-    img: 'https://cinema226.s3-us-west-2.amazonaws.com/C226+web+page2021/Recursos+Nosotros/Img/Carrusel+Equipo/Anna.png'
-},
-{
-    title: 'Camilo Torres',
-    position: '-',
-    description: '',
-    img: 'https://cinema226.s3-us-west-2.amazonaws.com/C226+web+page2021/Recursos+Nosotros/Img/Carrusel+Equipo/Camilo+Torres.png'
-},
-{
-    title: 'Gilda Mata',
-    position: '-',
-    description: '',
-    img: 'https://cinema226.s3-us-west-2.amazonaws.com/C226+web+page2021/Recursos+Nosotros/Img/Carrusel+Equipo/Gilda+Mata.png'
-},
-{
-    title: 'Ilanna Guillén',
-    position: '-',
-    description: '',
-    img: 'https://cinema226.s3-us-west-2.amazonaws.com/C226+web+page2021/Recursos+Nosotros/Img/Carrusel+Equipo/Ilanna+Guill%C3%A9n.png'
-},
-{
-    title: 'Isabel Fernández',
-    position: '-',
-    description: '',
-    img: 'https://cinema226.s3-us-west-2.amazonaws.com/C226+web+page2021/Recursos+Nosotros/Img/Carrusel+Equipo/Isabel+Fern%C3%A1ndez.png'
-},
-{
-    title: 'Javier Cabrera',
-    position: '-',
-    description: '',
-    img: 'https://cinema226.s3-us-west-2.amazonaws.com/C226+web+page2021/Recursos+Nosotros/Img/Carrusel+Equipo/Javier+Cabrera.png'
+    img: 'media/Nosotros/Adrian.png'
 },
 {
     title: 'Javier Meza',
-    position: '-',
+    position: 'Dirección de Postproducción',
     description: '',
-    img: 'https://cinema226.s3-us-west-2.amazonaws.com/C226+web+page2021/Recursos+Nosotros/Img/Carrusel+Equipo/Javier+Meza.png'
+    img: 'media/Nosotros/Javier-Meza.png'
 },
 {
     title: 'Marco Antonio Salgado',
-    position: '-',
+    position: 'Dirección de Desarrollo',
     description: '',
-    img: 'https://cinema226.s3-us-west-2.amazonaws.com/C226+web+page2021/Recursos+Nosotros/Img/Carrusel+Equipo/Marco+Antonio+Salgado.png'
+    img: 'media/Nosotros/Marco-Antonio-Salgado.png'
 },
 {
-    title: 'Marco Cabrera',
-    position: '-',
+    title: 'Camilo Torres',
+    position: ' Dirección de Contenido',
     description: '',
-    img: 'https://cinema226.s3-us-west-2.amazonaws.com/C226+web+page2021/Recursos+Nosotros/Img/Carrusel+Equipo/Marco+Cabrera.png'
-},
-{
-    title: 'Marcos Rodriguez',
-    position: '-',
-    description: '',
-    img: 'https://cinema226.s3-us-west-2.amazonaws.com/C226+web+page2021/Recursos+Nosotros/Img/Carrusel+Equipo/Marcos+Rodriguez.png'
-},
-{
-    title: 'Mariana Morales',
-    position: '-',
-    description: '',
-    img: 'https://cinema226.s3-us-west-2.amazonaws.com/C226+web+page2021/Recursos+Nosotros/Img/Carrusel+Equipo/Mariana+Morales.png'
-},
-{
-    title: 'Paola Mazlum',
-    position: '-',
-    description: '',
-    img: 'https://cinema226.s3-us-west-2.amazonaws.com/C226+web+page2021/Recursos+Nosotros/Img/Carrusel+Equipo/Paola+Mazlum.png'
-},
-{
-    title: 'Rodrigo Ordóñez',
-    position: '-',
-    description: '',
-    img: 'https://cinema226.s3-us-west-2.amazonaws.com/C226+web+page2021/Recursos+Nosotros/Img/Carrusel+Equipo/Rodrigo+Ord%C3%B3%C3%B1ez.png'
-},
-{
-    title: 'Sonia Hernández',
-    position: '-',
-    description: '',
-    img: 'https://cinema226.s3-us-west-2.amazonaws.com/C226+web+page2021/Recursos+Nosotros/Img/Carrusel+Equipo/Sonia+Hern%C3%A1ndez.png'
+    img: 'media/Nosotros/Camilo-Torres.png'
 },
 {
     title: 'Yunuen Monter',
-    position: '-',
+    position: 'Producción Ejecutiva',
     description: '',
-    img: 'https://cinema226.s3-us-west-2.amazonaws.com/C226+web+page2021/Recursos+Nosotros/Img/Carrusel+Equipo/Yunuen+Monter.png'
-}
-]
+    img: 'media/Nosotros/Yunuen-Monter.png'
+},
+{
+    title: 'Ilanna Guillén',
+    position: 'Creativo',
+    description: '',
+    img: 'media/Nosotros/Ilanna-Guillen.png'
+},
+{
+    title: 'Rodrigo Ordóñez',
+    position: 'Creativo',
+    description: '',
+    img: 'media/Nosotros/Rodrigo-Ordoñez.png'
+},
+{
+    title: 'Marco Cabrera',
+    position: 'Postproduction Manager',
+    description: '',
+    img: 'media/Nosotros/Marco-Cabrera.png'
+},
+{
+    title: 'Javier Cabrera',
+    position: 'Técnico Multimedia',
+    description: '',
+    img: 'media/Nosotros/Javier-Cabrera.png'
+},
+{
+    title: 'Gilda Mata',
+    position: 'Desarrollo',
+    description: '',
+    img: 'media/Nosotros/Gilda-Mata.png'
+},
+{
+    title: 'Mariana Morales',
+    position: 'Desarrollo',
+    description: '',
+    img: 'media/Nosotros/Mariana-Morales.png'
+},
+{
+    title: 'Marcos Rodriguez',
+    position: 'Administración',
+    description: '',
+    img: 'media/Nosotros/Marcos-Rodriguez.png'
+},
+{
+    title: 'Sonia Hernández',
+    position: 'Asistencia Ejecutiva',
+    description: '',
+    img: 'media/Nosotros/Sonia-Hernandez.png'
+}]
 
 export default {
     team,

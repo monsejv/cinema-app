@@ -1,0 +1,1368 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
+body {
+  background-color: black !important;
+  color: #F4F4F4 !important;
+  max-width: 1400px;
+  margin: auto !important;
+}
+
+body.bg-gray-body {
+  background-color: rgba(43, 43, 43, 0.8) !important;
+}
+
+@font-face {
+  font-family: 'Extenda';
+  src: local("Extenda"), url(../fonts/Extenda-20Micro.woff) format("woff");
+}
+
+@font-face {
+  font-family: 'Extenda-40';
+  src: local("Extenda"), url(../fonts/Extenda-40Hecto.woff) format("woff");
+}
+
+@font-face {
+  font-family: 'Anton';
+  src: local("Extenda"), url(../fonts/Anton-Regular.ttf) format("woff");
+}
+
+.paddings-container {
+  padding-left: 60px !important;
+  padding-right: 60px !important;
+}
+
+.title {
+  font-family: Extenda-40;
+  font-size: 160px;
+  font-style: normal;
+  line-height: 172px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.title.header {
+  font-family: Extenda;
+  letter-spacing: 0.01em;
+  font-weight: 300;
+}
+
+.subtitle {
+  font-weight: 300;
+  font-size: 48px;
+  line-height: 52px;
+  letter-spacing: 0.03em;
+  font-family: Extenda;
+}
+
+.h-100v {
+  height: 100vh;
+}
+
+.w-95 {
+  width: 95%;
+}
+
+.w-77 {
+  width: 77%;
+}
+
+.bg-gray {
+  background: #151515;
+  padding: 140px 118px;
+  margin-bottom: 172px;
+}
+
+.mb-120 {
+  margin-bottom: 120px;
+}
+
+a {
+  color: #F4F4F4 !important;
+}
+
+.img-header {
+  width: 100%;
+}
+
+b {
+  color: #169BD8;
+}
+
+.font-21 {
+  font-size: 120px;
+}
+
+.header-veintiuno {
+  width: 50%;
+}
+
+.text-contact {
+  font-family: Extenda;
+  font-weight: 250;
+  font-size: 110px;
+  letter-spacing: 0.03em;
+  line-height: 0.86;
+  margin-bottom: 0;
+}
+
+.text-low-two-colors {
+  font-family: Extenda;
+  font-weight: 300;
+  font-size: 96px;
+  line-height: 100%;
+  letter-spacing: 0.05em;
+  margin-top: -40px;
+}
+
+.text-low-two-colors.green b {
+  color: #AAC115;
+}
+
+p, span {
+  font-family: 'Source Code Pro', monospace;
+  font-size: 14px;
+  letter-spacing: 0.05em;
+}
+
+.text-two-colors {
+  font-weight: 300;
+  font-size: 180px;
+  line-height: 86%;
+  font-family: Extenda;
+}
+
+.text-two-colors.green b {
+  color: #AAC115;
+}
+
+.btn-outline-primary {
+  font-size: 36px !important;
+  letter-spacing: 0.03em !important;
+  color: #F4F4F4 !important;
+  border: 1px solid #169BD8 !important;
+  font-family: Extenda;
+  line-height: 100% !important;
+  border-radius: 0 !important;
+  width: 196px;
+  height: 48px;
+}
+
+.btn-outline-primary:hover, .btn-outline-primary:active, .btn-outline-primary:focus {
+  background-color: transparent !important;
+  color: #169BD8 !important;
+  text-decoration: line-through !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+  background-color: transparent !important;
+  border: 1px solid #169BD8 !important;
+  text-decoration: line-through !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
+.nav {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  right: 0;
+  height: 60px;
+  z-index: 999999;
+  padding: 20px;
+}
+
+.nav .logo {
+  position: absolute;
+  left: 60px;
+  top: 8px;
+  width: 35px;
+}
+
+.nav .menu {
+  position: absolute;
+  right: 60px;
+  top: 20px;
+  width: 25px;
+}
+
+.button-demo {
+  font-weight: 450 !important;
+  font-size: 30px !important;
+  line-height: 32px !important;
+  color: #F4F4F4 !important;
+  border: none !important;
+  background: transparent !important;
+  font-family: Extenda-40 !important;
+  letter-spacing: 0.05em;
+  height: 50px;
+  padding: 11px 9px !important;
+}
+
+.button-demo img {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  vertical-align: middle;
+  margin-top: -5px;
+}
+
+.video-wrapper {
+  position: relative;
+  width: 100%;
+  max-height: 900px;
+  z-index: -1;
+}
+
+.video-wrapper div {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.menu-box {
+  width: 100%;
+  height: 100%;
+  background: black;
+  position: fixed;
+  top: 0;
+  overflow-y: auto;
+  left: 0;
+  z-index: 99999;
+  padding: 0px 60px;
+}
+
+.menu-box .menu-list {
+  font-weight: normal;
+  font-size: 100px;
+  line-height: 86%;
+  letter-spacing: 0.03em;
+  font-family: Extenda-40;
+  list-style: none;
+  margin-left: -40px;
+}
+
+.menu-box .menu-list li {
+  margin-bottom: 0px;
+}
+
+.menu-box p {
+  font-size: 12px;
+  line-height: 194%;
+  letter-spacing: 0.07em;
+}
+
+.menu-box .menu-wrapper {
+  margin-top: 100px;
+}
+
+.footer {
+  padding: 47px 0;
+}
+
+.footer .work-toguether {
+  background-image: url("text/TRABAJEMOS-JUNTOS.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  height: 275px;
+  cursor: pointer;
+  display: block;
+}
+
+.footer .work-toguether:hover {
+  background-image: url("text/TRABAJEMOS-JUNTOS_HOVER.svg");
+  background-size: 110%;
+  background-position: -40px;
+}
+
+.copyright span {
+  margin-right: 30px;
+}
+
+.copyright span.social {
+  margin-right: 20px;
+  background-image: url("icons/arrow.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  padding-right: 20px;
+}
+
+.card {
+  background-color: transparent !important;
+  padding: 70px 0;
+}
+
+.card .btn-primary {
+  width: 197px;
+  height: 41px;
+  background: #169BD8;
+  border: none;
+  border-radius: 0;
+  font-family: Extenda;
+  font-style: normal;
+  font-weight: 350;
+  font-size: 36px;
+  letter-spacing: 0.03em;
+  line-height: 100%;
+  color: #F4F4F4;
+  padding: 7px;
+}
+
+.card .card-body {
+  position: absolute;
+  top: 0;
+}
+
+.card .card-body .card-title {
+  font-family: 'fontAvenirHeavy';
+}
+
+.card {
+  /*Services*/
+  /*Proyects*/
+  /* borderless */
+}
+
+.card .card-title {
+  background-repeat: no-repeat;
+  background-size: auto;
+  min-width: 550px;
+  height: 155px;
+}
+
+.card[data-title="produccion"], .card[data-title="distribucion"] {
+  float: right;
+  width: 95%;
+}
+
+.card[data-title="produccion"] .card-body, .card[data-title="distribucion"] .card-body {
+  right: -10px;
+  text-align: right;
+  top: -44px;
+}
+
+.card[data-title="produccion"] .card-title {
+  background-image: url("text/PRODUCCIÓN.svg");
+  background-position: right;
+}
+
+.card[data-title="post-produccion"] .card-title {
+  background-image: url("text/POST-PRODUCCIÓN.svg");
+}
+
+.card[data-title="pre-produccion"] {
+  width: 95%;
+}
+
+.card[data-title="pre-produccion"] .card-body {
+  right: -40px;
+  top: 113px;
+}
+
+.card[data-title="pre-produccion"] .card-body .card-title {
+  background-image: url("text/PRE-PRODUCCIÓN.svg");
+}
+
+.card[data-title="post-produccion"] .card-body, .card[data-title="movievans"] .card-body {
+  left: 10px;
+  top: -20px;
+}
+
+.card[data-title="movievans"] {
+  width: 95%;
+}
+
+.card[data-title="movievans"] .card-title {
+  background-image: url("text/MOVIE-VANS.svg");
+}
+
+.card[data-title="distribucion"] .card-title {
+  background-image: url("text/DISTRIBUCIÓN.svg");
+  background-position: right;
+}
+
+.card[data-title="malacopa"] .card-title {
+  background-image: url("text/MALACOPA.svg");
+}
+
+.card[data-title="traición"] .card-title {
+  background-image: url("text/TRAICIÓN.svg");
+}
+
+.card[data-title="el año de la plaga"] .card-title {
+  background-image: url("text/EL AÑO DE LA PLAGA.svg");
+}
+
+.card[data-title="el baile de la gacela"] .card-title {
+  background-image: url("text/EL BAILE DE LA GACELA.svg");
+}
+
+.card[data-title="al caer la noche"] .card-title {
+  background-image: url("text/AL CAER LA NOCHE.svg");
+}
+
+.card[data-title="influencia"] .card-title {
+  background-image: url("text/INFLUENCIA.svg");
+}
+
+.card[data-title="feral"] .card-title {
+  background-image: url("text/FERAL.svg");
+}
+
+.card[data-title="la venganza de jairo"] .card-title {
+  background-image: url("text/LA VENGANZA DE JAIRO.svg");
+}
+
+.card[data-title="coraje"] .card-title {
+  background-image: url("text/CORAJE.svg");
+}
+
+.card[data-title="QUESO, EL NIÑO PERRO"] {
+  width: 95%;
+}
+
+.card[data-title="QUESO, EL NIÑO PERRO"] .card-body {
+  top: -26px;
+  height: 100%;
+  width: 100%;
+}
+
+.card[data-title="QUESO, EL NIÑO PERRO"] .card-body .card-text {
+  position: absolute;
+  bottom: 15%;
+  right: 5%;
+  width: 40%;
+}
+
+.card[data-title="QUESO, EL NIÑO PERRO"] .card-body .card-title {
+  background-image: url("text/QUESO, EL NIÑO PERRO.svg");
+  background-position: right;
+}
+
+.card[data-title="FICG EDICIÓN TREINTA Y CINCO"] {
+  width: 95%;
+  float: right;
+}
+
+.card[data-title="FICG EDICIÓN TREINTA Y CINCO"] .card-body {
+  top: -40px;
+  height: 100%;
+  width: 100%;
+}
+
+.card[data-title="FICG EDICIÓN TREINTA Y CINCO"] .card-body .card-title {
+  background-image: url("text/FICG EDICIÓN TREINTA Y CINCO.svg");
+}
+
+.card[data-title="FICG EDICIÓN TREINTA Y CINCO"] .card-body .card-text {
+  bottom: 15%;
+  width: 40%;
+  left: 12%;
+  position: absolute;
+}
+
+.card.left {
+  width: 95%;
+}
+
+.card.left .card-body {
+  left: 5%;
+  height: 100%;
+  width: 100%;
+  top: -10px;
+}
+
+.card.left .card-body .wrapper-text {
+  position: absolute;
+  bottom: 15%;
+  right: 15%;
+  width: 55%;
+}
+
+.card.right {
+  width: 95%;
+  float: right;
+}
+
+.card.right .card-body {
+  width: 100%;
+  height: 100%;
+  right: 5%;
+  top: -10px;
+}
+
+.card.right .card-body .card-title {
+  background-position: right;
+}
+
+.card.right .card-body .wrapper-text {
+  position: absolute;
+  bottom: 15%;
+  left: 15%;
+  width: 55%;
+}
+
+.awards {
+  left: 65px !important;
+  bottom: -30px !important;
+}
+
+.premios {
+  width: 445px;
+  height: 65px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-bottom: 30px;
+  display: block;
+}
+
+.premios.p-2018 {
+  background-image: url("text/nuestros premios 2018.svg");
+}
+
+.premios.p-2019 {
+  background-image: url("text/nuestros premios 2019.svg");
+}
+
+.premios.p-2020 {
+  background-image: url("text/nuestros premios 2020.svg");
+}
+
+a:hover {
+  color: #169BD8 !important;
+  text-decoration: line-through !important;
+}
+
+.height-80 {
+  height: 80px;
+}
+
+.demo-wrapper {
+  min-height: 845px;
+  padding-bottom: 100px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.carousel-control-prev, .carousel-control-next {
+  top: auto !important;
+  bottom: -40px !important;
+  width: 35px !important;
+  height: 35px;
+  opacity: 1 !important;
+}
+
+.carousel-control-prev {
+  right: 40px;
+  left: auto !important;
+}
+
+.carousel-control-prev span {
+  background-image: url("icons/triangulo_izquierda.svg");
+}
+
+.carousel-control-next span {
+  background-image: url("icons/triangulo_derecha.svg");
+}
+
+.carousel-costume {
+  width: 57%;
+  left: 12% !important;
+  bottom: 0px !important;
+}
+
+.carousel-costume .btn-primary {
+  width: 196px;
+  height: 48px;
+  background: #169BD8;
+  font-weight: 350;
+  font-size: 36px;
+  line-height: 100%;
+  letter-spacing: 0.03em;
+  color: #F4F4F4;
+  font-family: Extenda;
+  padding: 9px;
+  border-radius: 0;
+}
+
+.carousel-caption h3 {
+  font-weight: 350;
+  font-size: 100px;
+  line-height: 100%;
+  letter-spacing: 0.03em;
+  font-family: Extenda;
+  margin-bottom: -10px;
+  text-transform: uppercase;
+}
+
+.carousel-indicators {
+  counter-reset: line-number;
+  z-index: -1 !important;
+}
+
+.carousel-indicators li {
+  counter-increment: line-number;
+  text-indent: initial !important;
+  background: none !important;
+  opacity: 0 !important;
+  -webkit-transition: none !important;
+  transition: none !important;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0.03em;
+  font-family: 'Source Code Pro', monospace;
+  width: 90px !important;
+}
+
+.carousel-indicators li::before {
+  content: counter(line-number, decimal-leading-zero) " / ";
+}
+
+.carousel-indicators li.active {
+  opacity: 1 !important;
+  position: absolute;
+  right: -10%;
+  bottom: -42px;
+}
+
+.proyects .carousel-indicators li::after {
+  content: "09";
+}
+
+.originals .carousel-indicators li::after, .presentials .carousel-indicators li::after {
+  content: "02";
+}
+
+.nosotros .carousel-indicators li::after {
+  content: "07";
+}
+
+.veintiuno .carousel-indicators, .veintiuno .carousel-control-prev, .veintiuno .carousel-control-next {
+  display: none;
+}
+
+.veintiuno .carousel-caption {
+  bottom: -40px;
+  width: 60%;
+  left: 21%;
+}
+
+.veintiuno .carousel-caption .members {
+  margin-left: 50%;
+}
+
+.loader {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: black;
+  z-index: 9999999;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.loader .w-70 {
+  width: 20%;
+}
+
+.loader .w-70 .logo {
+  background-image: url("icons/Logo.svg");
+  width: 100%;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-size: 90px;
+  background-position: center;
+}
+
+.loader .w-70 .progress {
+  margin-top: 50px;
+  height: 6px;
+}
+
+.loader .w-70 .progress .progress-bar {
+  height: 6px;
+  background: #169BD8;
+}
+
+.loader.fade-out {
+  animation: fadeOut ease 1s;
+  -webkit-animation: fadeOut ease 1s;
+  -moz-animation: fadeOut ease 1s;
+  -o-animation: fadeOut ease 1s;
+  -ms-animation: fadeOut ease 1s;
+  opacity: 0;
+  z-index: -1;
+}
+
+@-webkit-keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.borderless .carousel-indicators li::after {
+  content: "03";
+}
+
+.veintiuno-mobile .carousel-indicators li::after {
+  content: "02";
+}
+
+.left-22 {
+  left: 37% !important;
+}
+
+.member-wrapper {
+  bottom: -20px !important;
+}
+
+.no-margin {
+  margin: 0px;
+}
+
+.members {
+  margin-left: 20%;
+}
+
+h3.members {
+  font-family: Anton;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 155%;
+  letter-spacing: 0.03em;
+  width: 100%;
+}
+
+.wrapper-movie {
+  min-height: 900px;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.banner-movie {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+}
+
+.wrapper-trailer {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.wrapper-trailer .play {
+  display: block;
+  width: 70px;
+  height: 70px;
+  background-image: url("icons/play.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  cursor: pointer;
+}
+
+.wrapper-trailer .play.green {
+  background-image: url("icons/play_button_21+-.svg");
+}
+
+.sinopsis {
+  font-family: Extenda;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 96px;
+  line-height: 100%;
+  letter-spacing: 0.05em;
+}
+
+.avaible-wrapper {
+  margin-top: 20px;
+}
+
+.avaible-wrapper .netflix {
+  width: 96px;
+  height: 27px;
+  background-image: url("icons/netflix.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin: 0px 6px;
+  vertical-align: middle;
+}
+
+.avaible-wrapper .prime-video {
+  width: 96px;
+  height: 27px;
+  background-image: url("icons/amazonprime.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin: 0px 6px;
+  vertical-align: middle;
+}
+
+.avaible-wrapper .film {
+  background-image: url("icons/filmin.svg");
+  width: 96px;
+  height: 27px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin: 0px 6px;
+  vertical-align: middle;
+}
+
+.footer-menu {
+  position: absolute;
+  bottom: 30px;
+  width: 90%;
+}
+
+.scroll {
+  background: #000000;
+  opacity: 0.88;
+}
+
+.z-9 {
+  z-index: 9;
+}
+
+.z-0 {
+  z-index: -1;
+}
+
+.veintiuno-mobile .left-22 {
+  left: 22% !important;
+  width: 70%;
+  bottom: -35px !important;
+}
+
+.veintiuno-mobile .members {
+  margin-left: 40%;
+}
+
+.veintiuno-mobile .desc-member {
+  margin-top: 80px;
+}
+
+.veintiuno-mobile .carousel-control-next span {
+  background-image: url("icons/Polygon-1.svg");
+}
+
+.veintiuno-mobile .carousel-control-prev span {
+  background-image: url("icons/Polygon-2.svg");
+}
+
+/*Media Queries*/
+@media (max-width: 1200px) {
+  .img-header {
+    width: 100%;
+    height: auto;
+  }
+  .text-two-colors {
+    font-size: 125px;
+  }
+  .title {
+    font-size: 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .demo-wrapper {
+    min-height: 1010px;
+  }
+  .size-mobile .text-two-colors {
+    font-size: 120px;
+    margin-top: 0px;
+  }
+  .text-two-colors {
+    margin-top: -45px;
+  }
+  .carousel-costume {
+    bottom: -10px !important;
+  }
+  .carousel-costume .mb-5 {
+    margin-bottom: 2em !important;
+  }
+  .carousel-indicators li.active {
+    right: -6%;
+  }
+  .card .card-title {
+    min-width: 236px;
+    background-size: auto 70%;
+  }
+  .presentials h3 {
+    font-size: 90px;
+  }
+  .contact-us {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .contact-us .write-us {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    text-align: left;
+  }
+  .contact-us .visit-us {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    text-align: center;
+  }
+  .contact-us .call-us {
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+    text-align: right;
+  }
+  .copyright .disclaimer {
+    display: block;
+  }
+  .paddings-container {
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+  }
+  .nav .logo {
+    left: 40px;
+  }
+  .nav .menu {
+    right: 40px;
+  }
+  .awards {
+    left: 40px !important;
+    bottom: -70px !important;
+  }
+  .awards .premios {
+    width: 270px;
+    margin-bottom: 0px;
+  }
+  .member-wrapper h3 {
+    font-size: 30px;
+  }
+  .member-wrapper .no-margin {
+    font-size: 14px;
+    text-align: center;
+  }
+  .card .card-body {
+    width: 100%;
+  }
+  .card .card-title {
+    background-size: contain;
+  }
+  .card .btn-primary {
+    width: 144px;
+    height: 28px;
+    font-size: 24px;
+    padding: 5px;
+  }
+  .card p {
+    font-size: 12px;
+  }
+  .card[data-title="pre-produccion"], .card[data-title="produccion"], .card[data-title="movievans"], .card[data-title="distribucion"] {
+    width: 90%;
+  }
+  .card[data-title="pre-produccion"] .card-body, .card[data-title="produccion"] .card-body, .card[data-title="movievans"] .card-body, .card[data-title="distribucion"] .card-body {
+    top: 25%;
+    width: 90%;
+  }
+  .card[data-title="pre-produccion"] .card-title, .card[data-title="produccion"] .card-title, .card[data-title="movievans"] .card-title, .card[data-title="distribucion"] .card-title {
+    height: 100px;
+  }
+  .card[data-title="post-produccion"] .card-body {
+    top: 25%;
+    width: 90%;
+  }
+  .card[data-title="post-produccion"] .card-title {
+    height: 100px;
+  }
+  .card[data-title="produccion"] .card-body {
+    left: -11%;
+  }
+  .card[data-title="movievans"] {
+    float: right;
+    text-align: right;
+  }
+  .card[data-title="movievans"] .card-body {
+    left: -15%;
+  }
+  .card[data-title="movievans"] .card-title {
+    background-position: right;
+  }
+  .card[data-title="distribucion"] {
+    float: left;
+  }
+  .card[data-title="distribucion"] .card-body {
+    text-align: left;
+    left: 15%;
+  }
+  .card[data-title="distribucion"] .card-title {
+    background-position: left;
+  }
+  .card.left, .card.right {
+    width: 100%;
+  }
+  .card.left .card-title, .card.right .card-title {
+    height: 64px;
+  }
+  .card.left p, .card.right p {
+    font-size: 10px;
+  }
+  .card.left .btn-primary, .card.right .btn-primary {
+    width: 122px;
+    height: 37px;
+    font-size: 30px;
+    padding: 7px;
+  }
+  .card.left .card-body {
+    top: 10px;
+  }
+  .card.left .card-body .wrapper-text {
+    right: 0;
+    width: 87%;
+    left: 5%;
+  }
+  .card.right .card-body {
+    top: 10px;
+  }
+  .card.right .card-body .wrapper-text {
+    left: unset;
+    width: 87%;
+    right: 5%;
+    text-align: right;
+  }
+  .card[data-title="QUESO, EL NIÑO PERRO"] .card-body .card-title {
+    background-position: right;
+  }
+  .card[data-title="QUESO, EL NIÑO PERRO"] .card-body .card-text {
+    text-align: right;
+  }
+  .card[data-title="FICG EDICIÓN TREINTA Y CINCO"], .card[data-title="QUESO, EL NIÑO PERRO"] {
+    width: 100%;
+  }
+  .card[data-title="FICG EDICIÓN TREINTA Y CINCO"] .card-body, .card[data-title="QUESO, EL NIÑO PERRO"] .card-body {
+    top: 15px;
+  }
+  .card[data-title="FICG EDICIÓN TREINTA Y CINCO"] .card-body .card-title, .card[data-title="QUESO, EL NIÑO PERRO"] .card-body .card-title {
+    height: 64px;
+  }
+  .card[data-title="FICG EDICIÓN TREINTA Y CINCO"] .card-body .card-text, .card[data-title="QUESO, EL NIÑO PERRO"] .card-body .card-text {
+    width: 80%;
+    bottom: 24%;
+  }
+  .context-us .text-us {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .context-us .img-us {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .movies-trailer {
+    margin-top: 100px;
+  }
+  .movies-trailer .poster {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    margin-top: 50px;
+  }
+  .movies-trailer .trailer {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .title.header {
+    line-height: 60px;
+  }
+  .wrapper-movie {
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  .nosotros-mobile .carousel-indicators li::after {
+    content: "14";
+  }
+  .header-veintiuno {
+    width: 60%;
+  }
+  .context-veintiuno .img-us {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .context-veintiuno .enfoque {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+}
+
+@media (max-width: 576px) {
+  .nav img {
+    width: 30px;
+  }
+  .nav .logo {
+    left: 20px;
+  }
+  .nav .menu {
+    right: 20px;
+  }
+  .paddings-container {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  .size-mobile .text-two-colors {
+    font-size: 53px;
+    margin-top: 0px;
+  }
+  .menu-box {
+    padding: 0px 20px;
+  }
+  .menu-box .menu-list {
+    font-size: 96px;
+  }
+  .text-two-colors, .text-low-two-colors {
+    font-size: 53px;
+  }
+  .member-wrapper {
+    width: 100%;
+    left: 56px !important;
+  }
+  .other .text-two-colors {
+    font-size: 72px;
+    margin-top: -25px;
+    letter-spacing: 0.01em;
+  }
+  .other p {
+    font-size: 10px;
+    letter-spacing: 0.05em;
+  }
+  .other .btn-outline-primary {
+    display: none;
+  }
+  p {
+    font-size: 10px;
+  }
+  .w-95.pt-5 {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+  }
+  .btn-outline-primary {
+    width: 157px;
+    height: 44px;
+  }
+  .btn-primary {
+    width: 120px;
+    height: 44px;
+  }
+  .title {
+    font-size: 64px;
+    line-height: normal;
+    letter-spacing: 0.01em;
+  }
+  .title.header {
+    margin-bottom: -10px;
+  }
+  .title.mb-5 {
+    margin-bottom: 20px !important;
+  }
+  .demo-wrapper {
+    min-height: 700px;
+    padding-bottom: 20px;
+  }
+  .carousel-caption h3 {
+    font-size: 45px;
+  }
+  .carousel-caption p {
+    font-size: 7px;
+  }
+  .carousel-caption .btn {
+    width: 122px;
+    height: 37px;
+    font-size: 23px;
+  }
+  .carousel-indicators li {
+    font-size: 8px;
+  }
+  .carousel-indicators li.active {
+    right: -20%;
+  }
+  .carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 7px !important;
+    height: 12px !important;
+  }
+  .carousel-control-prev {
+    right: 20px;
+  }
+  .carousel-control-prev, .carousel-control-next {
+    bottom: -33px !important;
+  }
+  .presentials .carousel-costume {
+    left: 15px !important;
+    width: 100% !important;
+  }
+  .contact-us {
+    display: block;
+  }
+  .contact-us .write-us {
+    width: 50%;
+    display: -ms-inline-grid;
+    display: inline-grid;
+  }
+  .contact-us .call-us {
+    width: 50%;
+    display: -ms-inline-grid;
+    display: inline-grid;
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .contact-us .visit-us {
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+  }
+  .contact-us .text-contact {
+    font-size: 90px;
+  }
+  .contact-us p {
+    font-size: 12px;
+  }
+  .copyright .rights {
+    font-size: 11px;
+    letter-spacing: 0.04em;
+    color: #F4F4F4;
+  }
+  .context-us .text-us {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .context-us .img-us {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .context-us .img-us .text-two-colors {
+    font-size: 70px;
+  }
+  .member-wrapper {
+    padding-bottom: 0px !important;
+  }
+  .member-wrapper .members {
+    margin-bottom: 6px;
+    margin-left: 33%;
+  }
+  .member-wrapper h3 {
+    font-size: 18px;
+  }
+  .member-wrapper .no-margin {
+    text-align: center;
+    width: 69%;
+    font-size: 7px;
+  }
+  .wrapper-movie {
+    min-height: 445px;
+  }
+  .w-77 {
+    width: 100%;
+  }
+  .bg-gray {
+    padding: 25px;
+  }
+  .movies-trailer {
+    margin-top: 50px;
+  }
+  .avaible-wrapper .netflix, .avaible-wrapper .prime-video, .avaible-wrapper .film {
+    width: 70px;
+  }
+  .loader .w-70 {
+    width: 50%;
+  }
+  .loader .w-70 .logo {
+    background-size: 80px;
+  }
+  .wrapper-movie div {
+    margin-left: 20px;
+  }
+  .wrapper-trailer .play {
+    width: 40px;
+    height: 40px;
+  }
+  .card[data-title="post-produccion"], .card[data-title="pre-produccion"], .card[data-title="produccion"], .card[data-title="movievans"], .card[data-title="distribucion"] {
+    padding: 20px 0px;
+  }
+  .card[data-title="post-produccion"] {
+    width: 90%;
+  }
+  .footer .work-toguether {
+    height: 160px;
+  }
+  .footer .work-toguether:hover {
+    background-position: -17px;
+  }
+  .veintiuno-mobile .left-22 {
+    bottom: -8px !important;
+  }
+  .veintiuno-mobile .members {
+    margin-left: 40%;
+  }
+  .veintiuno-mobile .desc-member {
+    margin-top: 40px;
+  }
+}
+/*# sourceMappingURL=main.css.map */

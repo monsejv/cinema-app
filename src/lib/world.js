@@ -2,16 +2,16 @@ export const world = [{
     title: 'Patrocinadores Oficiales FICG',
     director: '',
     description: 'Festival Internancional de Cine de Guadalajara',
-    img: 'https://cinema226.s3-us-west-2.amazonaws.com/C226+web+page2021/Recursos+Index/Img/FICG.png',
-    imgTablet: 'https://cinema226.s3-us-west-2.amazonaws.com/C226+web+page2021/tablet/Rectangle+46.png',
+    img: 'media/Carrusel/web/Presencia/FICG.png',
+    imgTablet: 'media/Carrusel/movil/presencia/Rectangle-46.png',
     link:'/'
 },
 {
-    title: 'Patrocinadores Oficiales FESTIVAL DE MALAGA',
+    title: 'Patrocinadores Oficiales MAFIZ',
     director: '',
     description: 'Festival Internancional de Cine de Malaga',
-    img: 'https://cinema226.s3-us-west-2.amazonaws.com/C226+web+page2021/Recursos+Index/Img/malaga.png',
-    imgTablet: 'https://cinema226.s3-us-west-2.amazonaws.com/C226+web+page2021/tablet/Rectangle+47.png',
+    img: 'media/Carrusel/web/Presencia/malaga.png',
+    imgTablet: 'media/Carrusel/movil/presencia/Rectangle-47.png',
     link:'/'
 }]
 

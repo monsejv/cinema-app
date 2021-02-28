@@ -12,7 +12,7 @@ function CarousellDouble(props){
     const { list } = props
 
     return(
-        <Carousel activeIndex={index} onSelect={handleSelect} className={props.className} data-interval="90000">            
+        <Carousel activeIndex={index} onSelect={handleSelect} className={props.className} interval={null}>            
             <Carousel.Item>
                 <Row>
                     <Col lg={6}>
@@ -191,47 +191,6 @@ function CarousellDouble(props){
                         <Carousel.Caption className="text-left carousel-costume member-wrapper left-22">
                             <p className="members">{list[13].position}</p> 
                             <h3 className="members">{list[13].title}</h3>
-                        </Carousel.Caption>
-                    </Col>
-                </Row>
-            </Carousel.Item>
-            <Carousel.Item>
-                <Row>
-                    <Col lg={6}>
-                        <img
-                            className="d-block w-100"
-                            src={list[14].img}
-                            alt={list[14].title}
-                        />
-                        <Carousel.Caption className="text-left carousel-costume member-wrapper left-22">
-                            <p className="members">{list[14].position}</p> 
-                            <h3 className="members">{list[14].title}</h3>
-                        </Carousel.Caption>
-                    </Col>
-                    <Col lg={6}>
-                        <img
-                            className="d-block w-100"
-                            src={list[15].img}
-                            alt={list[15].title}
-                        />
-                        <Carousel.Caption className="text-left carousel-costume member-wrapper left-22">
-                            <p className="members">{list[15].position}</p> 
-                            <h3 className="members">{list[15].title}</h3>
-                        </Carousel.Caption>
-                    </Col>
-                </Row>
-            </Carousel.Item>
-            <Carousel.Item>
-                <Row>
-                    <Col lg={6}>
-                        <img
-                            className="d-block w-100"
-                            src={list[16].img}
-                            alt={list[16].title}
-                        />
-                        <Carousel.Caption className="text-left carousel-costume member-wrapper left-22">
-                            <p className="members">{list[16].position}</p> 
-                            <h3 className="members">{list[16].title}</h3>
                         </Carousel.Caption>
                     </Col>
                 </Row>

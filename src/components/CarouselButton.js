@@ -13,7 +13,7 @@ function CarousellButton(props){
     const { list } = props
 
     return(
-        <Carousel activeIndex={index} onSelect={handleSelect} className={props.className} data-interval="90000">
+        <Carousel activeIndex={index} onSelect={handleSelect} className={props.className} interval={null}>
             { list.map(list => (
                 <Carousel.Item>
                     <img
