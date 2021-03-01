@@ -6,7 +6,7 @@ import ServiceCard from '../components/ServiceCard'
 import NavBar from '../components/NavBar'
 import Footer from '../components/Footer'
 
-import {proyects} from '../lib/proyects'
+import {proyectsArray} from '../lib/proyects'
 
 
 function Proyects(){
@@ -23,8 +23,8 @@ function Proyects(){
             <Container fluid fluid className="paddings-container">
                 <NavBar />
                 <HeaderBox 
-                    image="https://cinema226.s3-us-west-2.amazonaws.com/C226+web+page2021/Recursos+Proyectos/Img/proyectos+head.png"
-                    imageTablet="https://cinema226.s3-us-west-2.amazonaws.com/C226+web+page2021/Recursos+Proyectos/Img/proyectos+head.png"
+                    image="/media/Proyectos/proyectos-head.png"
+                    imageTablet="/media/Proyectos/proyectos-head.png"
                     title="<b>PRESTIGIO</b> A NIVEL MUNDIAL EN LA CREACIÓN, PRODUCCIÓN Y DISTRIBUCIÓN <b>DE CONTENIDO."
                     description="Rompemos barreras para crear lazos estratégicos que nos permitan marcar tendencia y trascender en la mente de las personas, creando una conexión a través de nuestras historias."
                     buttonText="NUESTRO TRABAJO"
@@ -33,7 +33,7 @@ function Proyects(){
                     classMovil="other"
                 />
                 <Row className="pt-5 pb-5">
-                    { proyects.map(proyect => (
+                    { proyectsArray.map(proyect => (
                         <ServiceCard 
                             col={proyect.col} 
                             image={proyect.img}

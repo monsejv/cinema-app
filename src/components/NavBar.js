@@ -4,6 +4,10 @@ import Nav from 'react-bootstrap/Nav'
 import Menu from './Menu'
 import {Link} from 'react-router-dom'
 
+import Logo from '../assets/icons/Logo.svg'
+import MenuIcon from "../assets/icons/menu.svg" 
+import CloseIcon from '../assets/icons/Vector.svg'
+
 function NavBar(props){
     const [open, setState] = useState(false)
 
@@ -36,14 +40,14 @@ function NavBar(props){
                 >
                 <Nav.Item>
                     <Nav.Link>
-                        <Link to="/"><img className="logo" src= "https://cinema226.s3-us-west-2.amazonaws.com/C226+web+page2021/icons/Logo.svg" alt="Logo" /></Link>
+                        <Link to="/"><img className="logo" src= {Logo} alt="Logo" /></Link>
                     </Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
                     <Nav.Link eventKey="menu" onSelect={handleClick}>
                     {open
-                        ? <img className="menu" src="https://cinema226.s3-us-west-2.amazonaws.com/C226+web+page2021/icons/Vector+(1).svg" alt="menu"  />
-                        : <img className="menu" src="https://cinema226.s3-us-west-2.amazonaws.com/C226+web+page2021/icons/menu.svg" alt="menu" />
+                        ? <img className="menu" src={CloseIcon} alt="menu"  />
+                        : <img className="menu" src={MenuIcon} alt="menu" />
                     }
                     </Nav.Link>
                 </Nav.Item>

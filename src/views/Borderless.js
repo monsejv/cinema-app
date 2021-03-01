@@ -6,7 +6,8 @@ import HeaderBox from '../components/HeaderBox'
 import Carousell from '../components/Carousel'
 import ServiceCard from '../components/ServiceCard'
 import Footer from '../components/Footer'
-import { borderless, logbook } from '../lib/borderless'
+import { borderlessArray, logbookArray } from '../lib/borderless'
+import { Parallax } from 'react-scroll-parallax'
 
 function Borderless(){
     const [disabledParallax, setParallax] = useState(false);
@@ -22,8 +23,8 @@ function Borderless(){
            <Container fluid className="paddings-container">
             <NavBar />
             <HeaderBox 
-                    image="https://cinema226.s3-us-west-2.amazonaws.com/C226+web+page2021/Recursos+Borderless/Img/Header.png"
-                    imageTablet="https://cinema226.s3-us-west-2.amazonaws.com/C226+web+page2021/Recursos+Borderless/Img/Header.png"
+                    image="/media/Borderless/Header.png"
+                    imageTablet="/media/Borderless/Header.png"
                     title="CREEMOS EN <b>EL PODER DE LAS
                     HISTORIAS</b> QUE TRASCIENDEN
                     EN LA MENTE DE LAS PERSONAS."
@@ -33,21 +34,28 @@ function Borderless(){
                     classMovil="other"
                     loadFunction={""}
                 />
-            <Row className="pt-5 pb-5">
-                <Col sm={12}>
-                    <div className="d-none d-sm-block">
-                        <Carousell list={borderless} wrapperClass="awards" classNames="borderless" />
-                    </div>
-                    <div className="d-block d-sm-none">
-                        <Image src="https://cinema226.s3-us-west-2.amazonaws.com/C226+web+page2021/Recursos+Movil/Recursos+Borderless/Premios+2018.png" width="100%" />
-                    </div>
-                </Col>
-            </Row>
+            <Parallax
+                className="custom-class"
+                y={[40, -20]}
+                disabled={disabledParallax}
+                expand="true"
+                tag="figure">
+                <Row className="pt-5 pb-5">
+                    <Col sm={12}>
+                        <div className="d-none d-sm-block">
+                            <Carousell list={borderlessArray} wrapperClass="awards" classNames="borderless" />
+                        </div>
+                        <div className="d-block d-sm-none">
+                            <Image src="/media/Movil/Borderless/Premios-2018.png" width="100%" />
+                        </div>
+                    </Col>
+                </Row>
+            </Parallax>
             <Row className="pt-5 pb-5">
                 <Col sm={12}>
                     <h3 className="title text-left">LOGBOOK NEWS</h3>
                 </Col>
-                    { logbook.map(logbook => (
+                    { logbookArray.map(logbook => (
                         <ServiceCard 
                             col={logbook.col} 
                             image={logbook.img}

@@ -15,6 +15,8 @@ import Proyects from './views/Proyects'
 import Borderless from './views/Borderless'
 import Movies from './views/Movies'
 import Legal from './views/Legal'
+import DemoReel from './views/DemoReel'
+import Veintiuno from './views/Veintiuno'
 
 const history = createHistory();
 
@@ -61,6 +63,16 @@ function App() {
           path='/disclaimer'
           render={() => <Legal title='DISCLAIMER'
           text={textLegal} />}
+          exact
+        />
+        <Route
+          path='/demo-reel'
+          component={DemoReel}
+          exact
+        />
+        <Route
+          path='/veintiuno+-'
+          component={Veintiuno}
           exact
         />
       </Switch>

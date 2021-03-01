@@ -3,6 +3,7 @@ import React from 'react'
 import { Card, Col} from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import {Parallax, useController } from 'react-scroll-parallax'
+import LinkTo from './Link'
 
 
 function ServiceCard(props){
@@ -33,7 +34,8 @@ function ServiceCard(props){
                         <Card.Text>
                             {props.text}
                         </Card.Text>
-                        { props.textButton ? <Link to={{ pathname: `${props.link}`, state: { data: `${props.data}`} }} className="btn btn-primary">{props.textButton}</Link> : false }
+                        { props.isService ? <LinkTo link={props.link} text={props.textButton} className="btn btn-primary" target="_blank"  /> : false }
+                        { props.data ? <Link to={{ pathname: `${props.link}`, state: { data: `${props.data}`} }} className="btn btn-primary">{props.textButton}</Link> : false }
                     </div>
                 </Card.Body>
             </Card>

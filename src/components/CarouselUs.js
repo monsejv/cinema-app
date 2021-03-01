@@ -12,7 +12,7 @@ function CarouselUs(props){
     const { list } = props
 
     return(
-        <Carousel activeIndex={index} onSelect={handleSelect} className={props.className} data-interval="90000">
+        <Carousel activeIndex={index} onSelect={handleSelect} className={props.className} interval={null}>
             { list.map(list => (
                 <Carousel.Item>
                    <img
@@ -23,6 +23,7 @@ function CarouselUs(props){
                     <Carousel.Caption className="text-left carousel-costume member-wrapper left-22">
                     <p className="members">{list.position}</p> 
                     <h3 className="members">{list.title}</h3>
+                    <p className="desc-member">{list.description}</p>
                     </Carousel.Caption>
                 </Carousel.Item>
              ))

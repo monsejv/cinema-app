@@ -18,7 +18,7 @@ function Carousell(props){
     const className = styles.join(' ')
 
     return(
-        <Carousel activeIndex={index} onSelect={handleSelect} className={props.classNames} data-interval="90000">
+        <Carousel activeIndex={index} onSelect={handleSelect} className={props.classNames} interval={null}>
             { list.map(list => (
                 <Carousel.Item>
                     <img

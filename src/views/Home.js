@@ -11,11 +11,10 @@ import Video from '../components/Video'
 import ServiceCard from '../components/ServiceCard'
 import Loader from '../components/Loader'
 import Footer from '../components/Footer'
-import {proyects} from '../lib/proyects'
+import {proyectsArray} from '../lib/proyects'
 import {originals} from '../lib/originals'
 import { world } from '../lib/world'
 import { services } from '../lib/services'
-
 
 function Home (){
     const [progress, setProgress] = useState(0);
@@ -37,11 +36,11 @@ function Home (){
                         setProgress(100)
                         setTimeout(() => {
                             setClass('loader fade-out')
-                        }, 1500);
-                      }, 2000);
-                  }, 2000);
-              }, 2000);
-          }, 2000);
+                        }, 1000);
+                      }, 1500);
+                  }, 1000);
+              }, 1000);
+          }, 1000);
       }, [])
 
     return( 
@@ -54,12 +53,12 @@ function Home (){
                 <Parallax
                     className="custom-class"
                     disabled={disabledParallax}
-                    x={[27, -10]}
+                    y={[50, -10]}
                     expand="true"
                     tag="figure">
                         <HeaderBox 
-                            image="https://cinema226.s3-us-west-2.amazonaws.com/C226+web+page2021/Recursos+Index/Img/IMG_0350+2.png"
-                            imageTablet="https://cinema226.s3-us-west-2.amazonaws.com/C226+web+page2021/tablet/nosotros.png"
+                            image="/media/Recursos-Index/Img/header.png"
+                            imageTablet="/media/Tablet/Index/img/nosotros.png"
                             textImage="Samantha Guillén (Founder, CEO)<br/>Adrián Bazán (Founder, CFO)"
                             title="SOMOS UNA DE LAS CASAS PRODUCTORAS <b>MÁS PROMETEDORAS</b> DE MÉXICO."
                             description="En Cinema226, tenemos en desarrollo una veintena de películas y media docena de series, con historias originales y provocativas."
@@ -69,18 +68,32 @@ function Home (){
                             classMovil="size-mobile"
                         />
                     </Parallax>
-                <Row className="pt-5 pb-5">
-                    <Col>
-                        <h1 className="title text-left mb-5">PROYECTOS</h1>
-                        <CarousellButton list={proyects} className="proyects" />
-                    </Col>
-                </Row> 
-                <Row className="pt-5 pb-5">
-                    <Col>
-                        <h1 className="title text-left mb-5">ORIGINALS</h1>
-                        <CarousellButton list={originals} className="originals" />
-                    </Col>
-                </Row>
+                    <Parallax
+                        className="custom-class"
+                        disabled={disabledParallax}
+                        y={[70, -10]}
+                        expand="true"
+                        tag="figure">
+                             <Row className="pt-5 pb-5">
+                                <Col xs={12}>
+                                    <h1 className="title text-left mb-5">PROYECTOS</h1>
+                                    <CarousellButton list={proyectsArray} className="proyects" />
+                                </Col>
+                            </Row>
+                    </Parallax> 
+                    <Parallax
+                        className="custom-class"
+                        disabled={disabledParallax}
+                        y={[30, -10]}
+                        expand="true"
+                        tag="figure">
+                            <Row className="pt-5 pb-5">
+                                <Col>
+                                    <h1 className="title text-left mb-5">ORIGINALS</h1>
+                                    <CarousellButton list={originals} className="originals" />
+                                </Col>
+                            </Row>
+                    </Parallax>
                     <Row className="pt-5 pb-5">
                         <Col sm={12}>
                             <h1 className="title text-left mb-5">SERVICIOS</h1>
@@ -92,6 +105,7 @@ function Home (){
                                         imageTablet={service.imgTablet}
                                         width="90%"
                                         disabled={disabledParallax}
+                                        isService={true}
                                         height="auto"
                                         title={service.title}
                                         text={service.description}
@@ -102,12 +116,19 @@ function Home (){
                                 ))
                             }
                     </Row>
-                <Row className="pt-5 pb-5">
-                    <Col>
-                        <h1 className="title text-left mb-5">PRESENCIA EN EL MUNDO</h1>
-                        <Carousell list={world} wrapperClass="carousel-costume" classNames="presentials" />
-                    </Col>
-                </Row>
+                    <Parallax
+                        className="custom-class"
+                        disabled={disabledParallax}
+                        y={[30, -10]}
+                        expand="true"
+                        tag="figure">
+                            <Row className="pt-5 pb-5">
+                        <Col xs={12}>
+                            <h1 className="title text-left mb-5">PRESENCIA EN EL MUNDO</h1>
+                            <Carousell list={world} wrapperClass="carousel-costume" classNames="presentials" />
+                        </Col>
+                        </Row>
+                    </Parallax>
                 <Footer />
             </Container>
 
