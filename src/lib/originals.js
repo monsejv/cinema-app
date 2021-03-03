@@ -9,7 +9,7 @@ export const originals = [{
 {
     title: 'WRAP IT UP!',
     director: 'Marco Cabrera',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+    description: 'El podcast de Tecnología Audiovisual.',
     img: 'media/Carrusel/web/Originals/wrap-it-up.png',
     imgTablet: 'media/Carrusel/movil/Originals/wrap-it-up_movil.png',
     link: '/'

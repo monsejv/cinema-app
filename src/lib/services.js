@@ -22,7 +22,7 @@ export const services = [{
     img: 'media/Recursos-Index/Img/Post-Produccion.png',
     imgTablet: 'media/Movil/Index/postproduccion.png',
     textButton: 'TRABAJEMOS JUNTOS',
-    link: 'mailto:hola@c226.mx?subject=Trabajemos Juntos',
+    link: 'http://pcmpost.mx/',
     col: '12'
 },
 {

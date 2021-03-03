@@ -15,7 +15,7 @@ function Menu(props){
                 <li><Link to="/">INICIO</Link></li>
                 <li><Link to="/nosotros">NOSOTROS</Link></li>
                 <li><Link to="/proyectos">PROYECTOS</Link></li>
-                <li className="d-none" ><Link to="/veintiuno+-">VEINTIUNO+-</Link></li>
+                <li><Link to="/veintiuno+-">VEINTIUNO+-</Link></li>
                 <li><Link to="/borderless">BORDERLESS</Link></li>
             </ul>
             <div className="footer-menu">

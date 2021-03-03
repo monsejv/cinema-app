@@ -83,6 +83,7 @@ function Movies(props){
                                     url={infoMovie.linkVideo}
                                     width="100%"
                                     playing={statusVideo} 
+                                    controls={true}
                                     onEnded={toggleVideo}
                                     ref={videoYoutube}
                                 />

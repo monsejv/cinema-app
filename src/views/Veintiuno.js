@@ -4,11 +4,8 @@ import { Row, Col, Container, Image } from 'react-bootstrap'
 import NavBar from '../components/NavBar'
 import ImgText from '../components/ImgText'
 import ReactPlayer from 'react-player'
-import Carousel21 from '../components/Carousel21'
-import CarouselUs from '../components/CarouselUs'
 import Footer from '../components/Footer'
 import {Parallax} from 'react-scroll-parallax'
-import { members } from '../lib/veintiuno'
 
 
 function Nosotros(){
@@ -49,7 +46,8 @@ function Nosotros(){
     return(
         <main>
             <Image src="/media/Recursos-21+-/header_21+-.png" className="banner-movie d-none d-lg-block" />
-            <Image src="/media/Recursos-21+-/header-tablet.png" className="banner-movie d-block d-lg-none" />
+            <Image src="/media/Recursos-21+-/header_tablet.png" className="banner-movie d-none d-sm-block d-lg-none" />
+            <Image src="/media/Recursos-21+-/header_movil.png" className="banner-movie d-block d-sm-none" />
             <Container fluid fluid className="paddings-container">
                 <NavBar />
                 <Row className="wrapper-movie">
@@ -86,32 +84,15 @@ function Nosotros(){
                         <div className={classVideo}>
                             <ReactPlayer 
                                 url="https://vimeo.com/372943510"
-                                width="100%"
+                                className="video-21"
                                 playing={statusVideo} 
                                 onEnded={toggleVideo}
+                                controls={true}
                                 ref={videoYoutube}
                             />
                         </div>
                     </Col>
                 </Row>
-                <Parallax
-                        className="custom-class"
-                        y={[30, -20]}
-                        disabled={disabledParallax}
-                        expand="true"
-                        tag="figure">
-                    <Row className="pt-5 pb-5">
-                        <Col>
-                            <h1 className="title text-left font-21 pb-5">ROOM VEINTUNO MÁS-MENOS</h1>
-                            <div className="d-none d-lg-block">
-                                <Carousel21 list={members} className="veintiuno" />    
-                            </div>
-                            <div className="d-block d-lg-none">
-                                <CarouselUs list={members} className="veintiuno-mobile" />
-                            </div>
-                        </Col>
-                    </Row> 
-                </Parallax>
                 <Footer />
             </Container>
         </main>

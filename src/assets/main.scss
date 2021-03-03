@@ -849,16 +849,17 @@ h3.members{
             background-image: url('icons/Polygon-2.svg');
         }
     }
-<<<<<<< HEAD
 }
 
 .demo-reel-video{
     width: 100%!important;
     height: 500px!important;
-=======
->>>>>>> 632b84fa0f3fd488584bdc1893df10155770234f
 }
 
+.video-21{
+    width: 100%!important;
+    height: 650px!important;
+}
 /*Media Queries*/
 
 @media (max-width: 1200px) { 
@@ -1151,7 +1152,7 @@ h3.members{
      .menu-box{
         padding: 0px 20px;
          .menu-list{
-             font-size: 96px;
+             font-size: 80px;
              
          }
      }
@@ -1358,5 +1359,11 @@ h3.members{
         .desc-member{
             margin-top: 40px;
         }
+    }
+    .video-21{
+        height: 250px !important;
+    }
+    .text-two-colors.green{
+        font-size: 60px;
     }
   }
