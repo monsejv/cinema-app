@@ -135,6 +135,18 @@ p, span {
   color: #AAC115;
 }
 
+.text-two-colors.veintiuno {
+  font-size: 14px;
+  font-family: 'Source Code Pro', monospace;
+  margin-top: 15px;
+}
+
+.text-two-colors.receta {
+  position: absolute;
+  right: 80px;
+  top: -8%;
+}
+
 .btn-outline-primary {
   font-size: 36px !important;
   letter-spacing: 0.03em !important;
@@ -936,6 +948,10 @@ h3.members {
   .text-two-colors {
     margin-top: -45px;
   }
+  .text-two-colors.receta {
+    right: 60px;
+    top: 0;
+  }
   .carousel-costume {
     bottom: -10px !important;
   }
@@ -1187,6 +1203,13 @@ h3.members {
   }
   .text-two-colors, .text-low-two-colors {
     font-size: 53px;
+  }
+  .text-two-colors.veintiuno, .text-low-two-colors.veintiuno {
+    font-size: 10px !important;
+  }
+  .text-two-colors.receta, .text-low-two-colors.receta {
+    right: 50px;
+    top: 20px;
   }
   .member-wrapper {
     width: 100%;

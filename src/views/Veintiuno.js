@@ -21,7 +21,7 @@ function Nosotros(){
         if (widthPage < 577) { setParallax(true) } 
       }, [])
 
-      const [classVideo, changeClass] = useState('d-none')
+    const [classVideo, changeClass] = useState('d-none')
     const [classWrapper, changeWrapper] = useState(' ')
     const [statusVideo, changeVideo] = useState(false)
 
@@ -63,7 +63,11 @@ function Nosotros(){
                         tag="figure">
                     <Row className="pt-5 pb-4 context-veintiuno">
                         <Col lg={6} className="img-us">
-                            <ImgText img="/media/Recursos-21+-/21+-ranfles.png" disabled={disabledParallax} className="text-left text-low-two-colors green" text="EVOLUCIÓN QUE EXIGE <b>CONTENIDOS</b> MÁS <b>AMBICIOSOS</b> Y RETADORES." />
+                            <ImgText img="/media/Recursos-21+-/21+-ranfles.png" disabled={disabledParallax} className="text-left text-low-two-colors green" text="<b>QUESO EL NIÑO PERRO</b>" />
+                            <p>Queso, El Niño Perro es un proyecto de animación creado por los escritores de veintiuno más menos. El proyecto
+                                fue llevado al festival de Ventana Sur en Argentina y participó en distintos talleres.
+
+</p>
                         </Col>
                         <Col lg={6}>
                             <p className="d-block d-lg-none">En Veintiuno Mas Menos creamos contenido contemporáneo; impulsados por la pasión de contar historias. Desarrollando películas y series con el propósito de darle voz a las generaciones más jóvenes; un mercado en constante cambio y evolución que exige contenidos más ambiciosos y retadores.</p>
@@ -77,6 +81,7 @@ function Nosotros(){
                 </Parallax>
                 <Row>
                     <Col sm={12}>
+                        <h1 className="text-two-colors receta text-left">RECETA DE AMOR</h1>
                         <div className={className}>
                             <Image src="/media/Recursos-21+-/video_21+-.png" width="100%" /> 
                             <span className="play green" onClick={toggleVideo}></span>
@@ -91,6 +96,7 @@ function Nosotros(){
                                 ref={videoYoutube}
                             />
                         </div>
+                        <p className="text-two-colors green veintiuno">Nuestro corto, Receta de Amor, participó en el <b>48 Hour Film Proyect México.</b></p>
                     </Col>
                 </Row>
                 <Footer />
