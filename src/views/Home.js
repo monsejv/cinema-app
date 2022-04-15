@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react'
-import { Parallax, useController } from 'react-scroll-parallax';
+import { Parallax } from 'react-scroll-parallax';
 
 import NavBar from '../components/NavBar'
 import Header from '../components/Header'
@@ -11,10 +11,10 @@ import Video from '../components/Video'
 import ServiceCard from '../components/ServiceCard'
 import Loader from '../components/Loader'
 import Footer from '../components/Footer'
-import {proyectsArray} from '../lib/proyects'
-import {originals} from '../lib/originals'
-import { world } from '../lib/world'
-import { services } from '../lib/services'
+import proyectsArray from '../lib/proyects'
+import originals from '../lib/originals'
+import  world  from '../lib/world'
+import  services  from '../lib/services'
 
 function Home (){
     const [progress, setProgress] = useState(0);
@@ -47,7 +47,7 @@ function Home (){
         <main>
             <Loader loaderClass={loaderClass} progress={progress} />
             <Video />
-            <Container fluid fluid className="paddings-container" >
+            <Container fluid  className="paddings-container" >
                 <NavBar />
                 <Header />
                 <Parallax

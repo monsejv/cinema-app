@@ -1,4 +1,4 @@
-export const services = [{
+const services = [{
     title: 'pre-produccion',
     description: 'Servicios de Schedueling & Budgeting.',
     img: 'media/Recursos-Index/Img/Pre-Produccion.png',
@@ -44,6 +44,6 @@ export const services = [{
     col: '6'
 }]
 
-export default {
-    services
-}
+export default services;
+
+//solo falta quitar demas warnings

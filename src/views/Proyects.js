@@ -6,7 +6,7 @@ import ServiceCard from '../components/ServiceCard'
 import NavBar from '../components/NavBar'
 import Footer from '../components/Footer'
 
-import {proyectsArray} from '../lib/proyects'
+import proyectsArray from '../lib/proyects'
 
 
 function Proyects(){
@@ -20,7 +20,7 @@ function Proyects(){
 
     return(
         <main>
-            <Container fluid fluid className="paddings-container">
+            <Container fluid className="paddings-container">
                 <NavBar />
                 <HeaderBox 
                     image="/media/Proyectos/proyectos-head.png"

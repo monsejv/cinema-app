@@ -8,7 +8,7 @@ import CarousellDouble from '../components/CarousellDouble'
 import CarouselUs from '../components/CarouselUs'
 import Footer from '../components/Footer'
 import {Parallax} from 'react-scroll-parallax'
-import { team } from '../lib/team'
+import team from '../lib/team'
 
 
 function Nosotros(){
@@ -22,7 +22,7 @@ function Nosotros(){
 
     return(
         <main>
-            <Container fluid fluid className="paddings-container">
+            <Container fluid className="paddings-container">
                 <NavBar />
                 <HeaderBox 
                     image="/media/Nosotros/nosotros-header.png"

@@ -1,4 +1,4 @@
-export const team = [{
+const team = [{
     title: 'Samantha Guillén',
     position: 'Founder, C.E.O.',
     description: '',
@@ -15,24 +15,6 @@ export const team = [{
     position: 'Dirección de Postproducción',
     description: '',
     img: 'media/Nosotros/Javier-Meza.png'
-},
-{
-    title: 'Marco Antonio Salgado',
-    position: 'Dirección de Desarrollo',
-    description: '',
-    img: 'media/Nosotros/Marco-Antonio-Salgado.png'
-},
-{
-    title: 'Camilo Torres',
-    position: ' Dirección de Contenido',
-    description: '',
-    img: 'media/Nosotros/Camilo-Torres.png'
-},
-{
-    title: 'Yunuen Monter',
-    position: 'Producción Ejecutiva',
-    description: '',
-    img: 'media/Nosotros/Yunuen-Monter.png'
 },
 {
     title: 'Ilanna Guillén',
@@ -59,18 +41,6 @@ export const team = [{
     img: 'media/Nosotros/Javier-Cabrera.png'
 },
 {
-    title: 'Gilda Mata',
-    position: 'Desarrollo',
-    description: '',
-    img: 'media/Nosotros/Gilda-Mata.png'
-},
-{
-    title: 'Mariana Morales',
-    position: 'Desarrollo',
-    description: '',
-    img: 'media/Nosotros/Mariana-Morales.png'
-},
-{
     title: 'Marcos Rodriguez',
     position: 'Administración',
     description: '',
@@ -83,6 +53,4 @@ export const team = [{
     img: 'media/Nosotros/Sonia-Hernandez.png'
 }]
 
-export default {
-    team,
-}
+export default team;

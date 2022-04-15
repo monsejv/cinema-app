@@ -11,7 +11,7 @@ function Legal(props){
 
     return(
         <main>
-            <Container fluid fluid className="paddings-container">
+            <Container fluid className="paddings-container">
                 <NavBar />
                 <Row>
                     <Col sm={12}>

@@ -1,5 +1,5 @@
 
-export const proyectsArray = [{
+const proyectsArray = [{
     title: 'malacopa',
     data: 'malacopa',
     director: 'Armando Casas',
@@ -27,8 +27,8 @@ export const proyectsArray = [{
     data: 'plaga',
     director: 'C. Martín Ferrera',
     description: 'Tras romper con Irene, los amigos de Victor se empeñan en encontrarle una novia, pero él no quiere olvidarla, incluso cuando aparece Lola. Súbitamente, Irene lo llama, nerviosa, y le pide ayuda...',
-    img: 'media/Carrusel/web/Proyectos/elaño.png',
-    imgTablet: 'media/Carrusel/movil/elñodelaplaga.png',
+    img: 'media/Carrusel/web/Proyectos/elanio.png',
+    imgTablet: 'media/Carrusel/movil/elaniodelaplaga.png',
     link: '/movies',
     textButton: 'VER MÁS',
     col: '12',
@@ -102,6 +102,4 @@ export const proyectsArray = [{
 }]
 
 
-export default {
-    proyectsArray,
-}
+export default proyectsArray;

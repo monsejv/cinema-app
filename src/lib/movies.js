@@ -1,4 +1,4 @@
-export const moviesList = {
+const moviesList = {
     malacopa: [{
         title: 'MALACOPA',
         director: 'Armando Casas',
@@ -35,10 +35,10 @@ export const moviesList = {
         title: 'EL AÑO DE LA PLAGA',
         director: 'C. Martín Ferrera',
         description: 'Tras romper con Irene, los amigos de Victor se empeñan en encontrarle una novia, pero él no quiere olvidarla, incluso cuando aparece Lola. Súbitamente, Irene lo llama, nerviosa, y le pide ayuda porque la gente a su alrededor se comporta de modo diferente, como si hubieran perdido sus recuerdos y emociones. Victor decide convertirse en el héroe que nunca fué. Para Irene y salir en su ayuda.',
-        banner: '/media/Individuales/elañodelaplaga/header.png',
-        bannerMobile: '/media/Individuales/elañodelaplaga/elaño.png',
-        poster: '/media/Individuales/elañodelaplaga/malacopacartel-2.png',
-        imgVideo: '/media/Individuales/elañodelaplaga/trailer.png',
+        banner: '/media/Individuales/elaniodelaplaga/header.png',
+        bannerMobile: '/media/Individuales/elaniodelaplaga/elanio.png',
+        poster: '/media/Individuales/elaniodelaplaga/anio_cartel.png',
+        imgVideo: '/media/Individuales/elaniodelaplaga/trailer.png',
         linkVideo: 'https://vimeo.com/405312556'
     }],
     baileGacela: [{
@@ -103,6 +103,4 @@ export const moviesList = {
     }]
 }
 
-export default {
-    moviesList
-}
+export default moviesList;

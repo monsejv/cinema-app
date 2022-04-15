@@ -1,4 +1,4 @@
-export const world = [{
+const world = [{
     title: 'Patrocinadores Oficiales FICG',
     director: '',
     description: 'Festival Internancional de Cine de Guadalajara',
@@ -15,6 +15,4 @@ export const world = [{
     link:'/'
 }]
 
-export default {
-    world,
-}
+export default world;

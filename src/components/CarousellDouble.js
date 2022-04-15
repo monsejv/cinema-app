@@ -130,69 +130,6 @@ function CarousellDouble(props){
                             <h3 className="members">{list[8].title}</h3>
                         </Carousel.Caption>
                     </Col>
-                    <Col lg={6}>
-                        <img
-                            className="d-block w-100"
-                            src={list[9].img}
-                            alt={list[9].title}
-                        />
-                        <Carousel.Caption className="text-left carousel-costume member-wrapper left-22">
-                            <p className="members">{list[9].position}</p> 
-                            <h3 className="members">{list[9].title}</h3>
-                        </Carousel.Caption>
-                    </Col>
-                </Row>
-            </Carousel.Item>
-            <Carousel.Item>
-                <Row>
-                    <Col lg={6}>
-                        <img
-                            className="d-block w-100"
-                            src={list[10].img}
-                            alt={list[10].title}
-                        />
-                        <Carousel.Caption className="text-left carousel-costume member-wrapper left-22">
-                            <p className="members">{list[10].position}</p> 
-                            <h3 className="members">{list[10].title}</h3>
-                        </Carousel.Caption>
-                    </Col>
-                    <Col lg={6}>
-                        <img
-                            className="d-block w-100"
-                            src={list[11].img}
-                            alt={list[11].title}
-                        />
-                        <Carousel.Caption className="text-left carousel-costume member-wrapper left-22">
-                            <p className="members">{list[11].position}</p> 
-                            <h3 className="members">{list[11].title}</h3>
-                        </Carousel.Caption>
-                    </Col>
-                </Row>
-            </Carousel.Item>
-            <Carousel.Item>
-                <Row>
-                    <Col lg={6}>
-                        <img
-                            className="d-block w-100"
-                            src={list[12].img}
-                            alt={list[12].title}
-                        />
-                        <Carousel.Caption className="text-left carousel-costume member-wrapper left-22">
-                            <p className="members">{list[12].position}</p> 
-                            <h3 className="members">{list[12].title}</h3>
-                        </Carousel.Caption>
-                    </Col>
-                    <Col lg={6}>
-                        <img
-                            className="d-block w-100"
-                            src={list[13].img}
-                            alt={list[13].title}
-                        />
-                        <Carousel.Caption className="text-left carousel-costume member-wrapper left-22">
-                            <p className="members">{list[13].position}</p> 
-                            <h3 className="members">{list[13].title}</h3>
-                        </Carousel.Caption>
-                    </Col>
                 </Row>
             </Carousel.Item>
         </Carousel>

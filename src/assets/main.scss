@@ -617,17 +617,17 @@ a:hover{
     } 
 } 
 
-.originals, .presentials{
+.presentials{
     .carousel-indicators{
         li::after{
             content: "02";
         }
     } 
 }
-.nosotros{
+.nosotros, .originals{
     .carousel-indicators{
         li::after{
-            content: "07";
+            content: "05";
         }
     } 
 }
@@ -1123,7 +1123,7 @@ h3.members{
     .nosotros-mobile{
         .carousel-indicators{
             li::after{
-                content: "14";
+                content: "09";
             }
         } 
     }

@@ -1,4 +1,4 @@
-export const members =[{
+const members =[{
     title: 'Ilanna Guillén',
     position: 'Head Writter',
     description: 'Toda historia merece que un buen escritor la narre.',
@@ -11,6 +11,4 @@ export const members =[{
     img: 'media/Recursos-21+-/Group-153.png'
 }]
 
-export default {
-    members,
-}
+export default members;

@@ -7,7 +7,7 @@ import Link from '../components/Link'
 import ReactPlayer from 'react-player'
 import {Parallax} from 'react-scroll-parallax'
 
-import {moviesList} from '../lib/movies'
+import moviesList from '../lib/movies'
 
 function Movies(props){
 
@@ -55,7 +55,7 @@ function Movies(props){
         <main>
             <Image src={infoMovie.banner} className="banner-movie d-none d-lg-block" />
             <Image src={infoMovie.bannerMobile} className="banner-movie d-block d-lg-none" />
-            <Container fluid fluid className="paddings-container">
+            <Container fluid className="paddings-container">
                 <NavBar />
                 <Row className="wrapper-movie">
                     <div className="text-left">

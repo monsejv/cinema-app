@@ -30,7 +30,7 @@ function CarousellButton(props){
                     <h3>{list.title}</h3>
                     <p className="mb-5">Director: {list.director}</p>
                     <p className="mb-5">{list.description}</p>
-                    <Link to={{ pathname: `${list.link}`, state: { data: `${list.data}`} }} className="btn btn-primary">VER MÁS</Link>
+                    <Link to={{ pathname: `${list.link}`, state: { data: `${list.data}`} }} target={list.data ? '' : '_blank'}  className="btn btn-primary">VER MÁS</Link>
                     </Carousel.Caption>
                 </Carousel.Item>
              ))

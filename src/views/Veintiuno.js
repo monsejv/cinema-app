@@ -48,7 +48,7 @@ function Nosotros(){
             <Image src="/media/Recursos-21+-/header_21+-.png" className="banner-movie d-none d-lg-block" />
             <Image src="/media/Recursos-21+-/header_tablet.png" className="banner-movie d-none d-sm-block d-lg-none" />
             <Image src="/media/Recursos-21+-/header_movil.png" className="banner-movie d-block d-sm-none" />
-            <Container fluid fluid className="paddings-container">
+            <Container fluid className="paddings-container">
                 <NavBar />
                 <Row className="wrapper-movie">
                     <div className="text-left header-veintiuno">
