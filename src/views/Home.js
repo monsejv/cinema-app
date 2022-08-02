@@ -57,7 +57,7 @@ function Home (){
                     expand="true"
                     tag="figure">
                         <HeaderBox 
-                            image="/media/Recursos-Index/Img/nosotros_movil.png"
+                            image="/media/Recursos-Index/Img/index_nosotros.png"
                             imageTablet="/media/Recursos-Index/Img/index_nosotros.png"
                             textImage="Samantha Guillén (Founder, CEO)<br/>Adrián Bazán (Founder, CFO)"
                             title="SOMOS UNA DE LAS CASAS PRODUCTORAS <b>MÁS PROMETEDORAS</b> DE MÉXICO."
