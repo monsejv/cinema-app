@@ -45,9 +45,9 @@ function Nosotros(){
 
     return(
         <main>
-            <Image src="/media/Recursos-21+-/header_21+-.png" className="banner-movie d-none d-lg-block" />
-            <Image src="/media/Recursos-21+-/header_tablet.png" className="banner-movie d-none d-sm-block d-lg-none" />
-            <Image src="/media/Recursos-21+-/header_movil.png" className="banner-movie d-block d-sm-none" />
+            <Image src="/media/Recursos-21+-/21_mas_menos_web.png" className="banner-movie d-none d-lg-block" />
+            <Image src="/media/Recursos-21+-/21_mas_menos_movil.png" className="banner-movie d-none d-sm-block d-lg-none" />
+            <Image src="/media/Recursos-21+-/21_mas_menos_movil.png" className="banner-movie d-block d-sm-none" />
             <Container fluid className="paddings-container">
                 <NavBar />
                 <Row className="wrapper-movie">
@@ -63,7 +63,7 @@ function Nosotros(){
                         tag="figure">
                     <Row className="pt-5 pb-4 context-veintiuno">
                         <Col lg={6} className="img-us">
-                            <ImgText img="/media/Recursos-21+-/21+-ranfles.png" disabled={disabledParallax} className="text-left text-low-two-colors green" text="<b>QUESO EL NIÑO PERRO</b>" />
+                            <ImgText img="/media/Recursos-21+-/QUESO.png" disabled={disabledParallax} className="text-left text-low-two-colors green" text="<b>QUESO EL NIÑO PERRO</b>" />
                             <p>Queso, El Niño Perro es un proyecto de animación creado por los escritores de veintiuno más menos. El proyecto
                                 fue llevado al festival de Ventana Sur en Argentina y participó en distintos talleres.
 

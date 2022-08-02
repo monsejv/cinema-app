@@ -25,8 +25,8 @@ function Nosotros(){
             <Container fluid className="paddings-container">
                 <NavBar />
                 <HeaderBox 
-                    image="/media/Nosotros/nosotros-header.png"
-                    imageTablet="/media/Tablet/Nosotros/nsotros-header.png"
+                    image="/media/Recursos-Index/Img/nosotros_movil.png"
+                    imageTablet="/media/Recursos-Index/Img/index_nosotros.png"
                     title="<b>EMPODERAMOS</b> A NUESTRO EQUIPO PARA LOGRAR <b>PRODUCCIONES</b> DE CLASE MUNDIAL."
                     description="Ser una de las compañías de entretenimiento de mayor prestigio a nivel mundial en la creación,  producción y distribución de contenido audiovisual en todas sus formas, es nuestro objetivo principal."
                     className="d-none"

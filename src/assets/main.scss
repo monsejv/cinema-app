@@ -624,7 +624,14 @@ a:hover{
         }
     } 
 }
-.nosotros, .originals{
+.nosotros{
+    .carousel-indicators{
+        li::after{
+            content: "07";
+        }
+    } 
+}
+.originals{
     .carousel-indicators{
         li::after{
             content: "05";
@@ -1123,7 +1130,7 @@ h3.members{
     .nosotros-mobile{
         .carousel-indicators{
             li::after{
-                content: "09";
+                content: "14";
             }
         } 
     }

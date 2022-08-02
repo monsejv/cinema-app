@@ -2,8 +2,8 @@ const world = [{
     title: 'Patrocinadores Oficiales FICG',
     director: '',
     description: 'Festival Internancional de Cine de Guadalajara',
-    img: 'media/Carrusel/web/Presencia/FICG.png',
-    imgTablet: 'media/Carrusel/movil/presencia/Rectangle-46.png',
+    img: 'media/Carrusel/web/Presencia/ficg_index_web.png',
+    imgTablet: 'media/Carrusel/movil/presencia/ficg_index_movil.png',
     link:'/'
 },
 {

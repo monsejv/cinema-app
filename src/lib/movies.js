@@ -87,7 +87,7 @@ const moviesList = {
         description: 'ALMA, actriz con una enfermedad que la está dejando ciega y temerosa de que la despidan de su compañía teatral, recibe en su casa a su hijo ALEJANDRO, quien busca recuperarse de sus adicciones. Tras no haberse visto en 10 años, sus crisis individuales les llevarán a (re)conocerse como madre e hijo. Una ficción basada en la familia real del director con su madre y su hermano interpretándose a sí mismos.',
         banner: '/media/Individuales/coraje/header.png',
         bannerMobile: '/media/Individuales/coraje/coraje.png',
-        poster: '/media/Individuales/coraje/corajecartel.png',
+        poster: '/media/Individuales/coraje/coraje_cartel.png',
         imgVideo: '/media/Individuales/coraje/trailer.png',
         linkVideo: '/'
     }],

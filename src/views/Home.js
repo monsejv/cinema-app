@@ -57,8 +57,8 @@ function Home (){
                     expand="true"
                     tag="figure">
                         <HeaderBox 
-                            image="/media/Recursos-Index/Img/header.png"
-                            imageTablet="/media/Tablet/Index/img/nosotros.png"
+                            image="/media/Recursos-Index/Img/nosotros_movil.png"
+                            imageTablet="/media/Recursos-Index/Img/index_nosotros.png"
                             textImage="Samantha Guillén (Founder, CEO)<br/>Adrián Bazán (Founder, CFO)"
                             title="SOMOS UNA DE LAS CASAS PRODUCTORAS <b>MÁS PROMETEDORAS</b> DE MÉXICO."
                             description="En Cinema226, tenemos en desarrollo una veintena de películas y media docena de series, con historias originales y provocativas."
